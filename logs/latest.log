@@ -175,3 +175,49 @@ Caused by: java.util.zip.ZipException: zip file is empty
 [05:58:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
 [05:58:32] [Server thread/INFO]: [0;32;1m1 placeholder hook(s) registered![m
 [05:59:32] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[07:18:22] [Netty Epoll Server IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:47) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:555) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
+	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:172) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[11:18:58] [User Authenticator #1/INFO]: UUID of player slowentity is 7b62e657-3b2a-3dad-b070-53b9114fc1f0
+[11:19:01] [Server thread/INFO]: slowentity joined the game
+[11:19:01] [Server thread/INFO]: slowentity[/103.88.169.131:50033] logged in with entity id 48 at ([world]-777.4272779510906, 75.5625, 326.89749074919774)
+[11:19:16] [Server thread/INFO]: slowentity issued server command: /sb force default_score
+[11:20:25] [Server thread/INFO]: slowentity lost connection: Disconnected
+[11:20:25] [Server thread/INFO]: slowentity left the game
+[11:21:25] [Server thread/INFO]: Server empty for 60 seconds, pausing
