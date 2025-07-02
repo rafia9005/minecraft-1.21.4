@@ -1,0 +1,10 @@
+scoreboards:
+  default:
+    title: "&a&lSurvival Server"
+    lines:
+      - ""
+      - "&fNama: &a%player%"
+      - "&fPing: &a%ping%"
+      - "&fOnline: &a%online%/%max%"
+      - ""
+      - "&eplay.terarush.studio"
