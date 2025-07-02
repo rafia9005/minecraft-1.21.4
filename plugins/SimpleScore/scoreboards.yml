@@ -43,6 +43,8 @@ simple:
     - '&7&m------------------'
 
 default_score:
+  updateTime: 10  # update setiap 10 tick (0.5 detik)
+  renderTime: 10  # render setiap 10 tick (0.5 detik)
   titles: '&b&l⏣ &3&lT&9&le&b&lr&3&la&9&lR&b&lu&3&ls&9&lh &b&l⏣'
   scores:
     '10': '&8&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
