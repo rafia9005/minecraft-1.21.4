@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "835b6008-f89c-32ba-82bb-1d8bd527c6e8",
+    "name": "Yomomsacow",
+    "created": "2025-07-05 15:45:57 +0000",
+    "source": "slowentity",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

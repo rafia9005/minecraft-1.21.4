@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "ip": "217.148.141.59",
+    "created": "2025-07-05 16:00:03 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "ip": "79.110.53.104",
+    "created": "2025-07-05 16:00:03 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

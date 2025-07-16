@@ -1,5 +1,17 @@
 [
   {
+    "uuid": "436b6047-b9d6-359b-bcfe-018c718338dd",
+    "name": "YadiYouna",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "fec81563-b97c-3e03-95b1-72995a88ab15",
+    "name": "Pellyxxx",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "7b62e657-3b2a-3dad-b070-53b9114fc1f0",
     "name": "slowentity",
     "level": 4,
