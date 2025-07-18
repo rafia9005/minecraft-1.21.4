@@ -1,18 +1,20 @@
-[00:49:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:49:36] [ServerMain/INFO]: Loaded 1370 recipes
-[00:49:36] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[00:49:36] [Server thread/INFO]: Loading properties
-[00:49:36] [Server thread/INFO]: This server is running CraftBukkit version 4458-Spigot-73860e0-fb3f2b6 (MC: 1.21.4) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[00:49:37] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
-[00:49:37] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
-[00:49:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:49:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:49:37] [Server thread/INFO]: Debug logging is disabled
-[00:49:37] [Server thread/INFO]: Default game type: SURVIVAL
-[00:49:37] [Server thread/INFO]: Generating keypair
-[00:49:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:49:37] [Server thread/INFO]: Using epoll channel type
-[00:49:37] [Server thread/ERROR]: Could not load 'plugins/SkinsRestorer.jar'
+[05:01:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:01:06] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[05:01:07] [ServerMain/INFO]: No existing world data, creating new world
+[05:01:09] [ServerMain/INFO]: Loaded 1370 recipes
+[05:01:09] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[05:01:09] [Server thread/INFO]: Loading properties
+[05:01:09] [Server thread/INFO]: This server is running CraftBukkit version 4458-Spigot-73860e0-fb3f2b6 (MC: 1.21.4) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[05:01:10] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[05:01:10] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[05:01:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:01:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:01:10] [Server thread/INFO]: Debug logging is disabled
+[05:01:10] [Server thread/INFO]: Default game type: SURVIVAL
+[05:01:10] [Server thread/INFO]: Generating keypair
+[05:01:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:01:10] [Server thread/INFO]: Using epoll channel type
+[05:01:11] [Server thread/ERROR]: Could not load 'plugins/SkinsRestorer.jar'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:178) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:158) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
@@ -36,202 +38,176 @@ Caused by: java.util.zip.ZipException: zip file is empty
 	at java.base/java.util.jar.JarFile.<init>(JarFile.java:282) ~[?:?]
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:166) ~[spigot-api-1.21.4-R0.1-SNAPSHOT.jar:?]
 	... 7 more
-[00:49:38] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
-[00:49:38] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.5
-[00:49:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:49:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:49:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:49:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:49:38] [Server thread/INFO]: Preparing level "Survival"
-[00:49:38] [Server thread/INFO]: -------- World Settings For [Survival] --------
-[00:49:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Potato Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[00:49:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[00:49:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[00:49:38] [Server thread/INFO]: Mob Spawn Range: 6
-[00:49:38] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:49:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[00:49:38] [Server thread/INFO]: Max TNT Explosions: 100
-[00:49:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:49:38] [Server thread/INFO]: View Distance: 10
-[00:49:38] [Server thread/INFO]: Simulation Distance: 10
-[00:49:38] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:49:38] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:49:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[00:49:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:49:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:49:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:49:38] [Server thread/INFO]: -------- World Settings For [Survival_nether] --------
-[00:49:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Potato Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[00:49:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[00:49:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[00:49:38] [Server thread/INFO]: Mob Spawn Range: 6
-[00:49:38] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:49:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[00:49:38] [Server thread/INFO]: Max TNT Explosions: 100
-[00:49:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:49:38] [Server thread/INFO]: View Distance: 10
-[00:49:38] [Server thread/INFO]: Simulation Distance: 10
-[00:49:38] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:49:38] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:49:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[00:49:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:49:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:49:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:49:38] [Server thread/INFO]: -------- World Settings For [Survival_the_end] --------
-[00:49:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Cane Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Melon Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Potato Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Vine Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[00:49:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[00:49:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[00:49:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[00:49:38] [Server thread/INFO]: Mob Spawn Range: 6
-[00:49:38] [Server thread/INFO]: Experience Merge Radius: 3.0
-[00:49:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[00:49:38] [Server thread/INFO]: Max TNT Explosions: 100
-[00:49:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:49:38] [Server thread/INFO]: View Distance: 10
-[00:49:38] [Server thread/INFO]: Simulation Distance: 10
-[00:49:38] [Server thread/INFO]: Item Despawn Rate: 6000
-[00:49:38] [Server thread/INFO]: Item Merge Radius: 2.5
-[00:49:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[00:49:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:49:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[00:49:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[00:49:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:49:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:49:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:49:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:49:40] [Worker-Main-5/INFO]: Preparing spawn area: 18%
-[00:49:40] [Server thread/INFO]: Time elapsed: 1839 ms
-[00:49:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:49:40] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:49:40] [Server thread/INFO]: Time elapsed: 101 ms
-[00:49:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:49:40] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[00:49:40] [Server thread/INFO]: Time elapsed: 87 ms
-[00:49:40] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[00:49:40] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[00:49:40] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.5
-[00:49:41] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
-[00:49:41] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
-[00:49:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SimpleScore [3.12.5]
-[00:49:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:49:41] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[00:49:41] [Server thread/INFO]: Done (3.123s)! For help, type "help"
-[00:49:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[00:49:41] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[00:49:41] [User Authenticator #1/INFO]: UUID of player ario is 1ed566cb-3d8b-3d79-b6eb-2a8572d9b6cf
-[00:49:43] [Server thread/INFO]: ario joined the game
-[00:49:43] [Server thread/INFO]: ario[/103.144.209.104:52721] logged in with entity id 84 at ([Survival]-11.89608579193857, 69.0, 37.769923318995986)
-[00:49:43] [User Authenticator #2/INFO]: UUID of player ErikMabarbareng is e64c1f51-d275-39da-80a7-70e2554ee1dd
-[00:49:44] [Server thread/INFO]: ErikMabarbareng joined the game
-[00:49:44] [Server thread/INFO]: ErikMabarbareng[/103.165.209.242:38898] logged in with entity id 85 at ([Survival]-24.916324243401917, 63.0, 72.27754109841575)
-[00:50:14] [Server thread/INFO]: ErikMabarbareng has made the advancement [Stone Age]
-[00:50:36] [Server thread/INFO]: ErikMabarbareng has made the advancement [Getting an Upgrade]
-[00:51:52] [Server thread/INFO]: ario was slain by Zombie
-[00:54:13] [Server thread/INFO]: ErikMabarbareng was slain by ario
-[00:58:07] [Server thread/INFO]: ario lost connection: Disconnected
-[00:58:07] [Server thread/INFO]: ario left the game
-[01:00:46] [Server thread/INFO]: ErikMabarbareng lost connection: Disconnected
-[01:00:46] [Server thread/INFO]: ErikMabarbareng left the game
-[01:01:46] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[01:22:17] [User Authenticator #3/INFO]: UUID of player Fannnnn1212 is adc92420-2b00-3e19-84b4-1951a564e165
-[01:22:18] [Server thread/INFO]: Fannnnn1212 joined the game
-[01:22:18] [Server thread/INFO]: Fannnnn1212[/103.144.209.104:58236] logged in with entity id 2596 at ([Survival]-1172.699999988079, 76.0, 552.5896897025711)
-[01:23:08] [Server thread/INFO]: Fannnnn1212 lost connection: Timed out
-[01:23:08] [Server thread/INFO]: Fannnnn1212 left the game.
-[01:23:42] [User Authenticator #4/INFO]: UUID of player Fannnnn1212 is adc92420-2b00-3e19-84b4-1951a564e165
-[01:23:44] [Server thread/INFO]: Fannnnn1212 joined the game
-[01:23:44] [Server thread/INFO]: Fannnnn1212[/103.144.209.104:58238] logged in with entity id 2920 at ([Survival]-1159.1784639980497, 77.0, 559.324403045133)
-[01:24:02] [Server thread/INFO]: Fannnnn1212 was slain by Zombie
-[01:26:40] [Server thread/INFO]: Fannnnn1212 was slain by Zombie
-[01:29:34] [Server thread/INFO]: Fannnnn1212 lost connection: Timed out
-[01:29:34] [Server thread/INFO]: Fannnnn1212 left the game.
-[01:30:34] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[01:37:52] [User Authenticator #5/INFO]: UUID of player Fannnnn1212 is adc92420-2b00-3e19-84b4-1951a564e165
-[01:37:55] [Server thread/INFO]: Fannnnn1212 joined the game
-[01:37:55] [Server thread/INFO]: Fannnnn1212[/103.144.209.104:59189] logged in with entity id 4423 at ([Survival]-12.485330796311503, 63.0, 1.4861873955840332)
-[01:38:45] [Server thread/INFO]: Fannnnn1212 lost connection: Timed out
-[01:38:45] [Server thread/INFO]: Fannnnn1212 left the game.
-[01:38:55] [User Authenticator #6/INFO]: UUID of player Fannnnn1212 is adc92420-2b00-3e19-84b4-1951a564e165
-[01:38:56] [Server thread/INFO]: Fannnnn1212 joined the game
-[01:38:56] [Server thread/INFO]: Fannnnn1212[/103.144.209.104:59207] logged in with entity id 4647 at ([Survival]-12.485330796311503, 63.0, 1.4861873955840332)
-[01:40:11] [Server thread/INFO]: Fannnnn1212 lost connection: Timed out
-[01:40:11] [Server thread/INFO]: Fannnnn1212 left the game.
-[01:41:11] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[02:35:44] [User Authenticator #7/INFO]: UUID of player ErikMabarbareng is e64c1f51-d275-39da-80a7-70e2554ee1dd
-[02:35:47] [Server thread/INFO]: ErikMabarbareng joined the game
-[02:35:47] [Server thread/INFO]: ErikMabarbareng[/112.215.242.246:44520] logged in with entity id 4925 at ([Survival]61.17902366457518, 63.0, 203.5466871282113)
-[02:38:46] [Server thread/INFO]: ErikMabarbareng lost connection: Disconnected
-[02:38:46] [Server thread/INFO]: ErikMabarbareng left the game
-[02:39:46] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[02:41:46] [User Authenticator #8/INFO]: UUID of player ErikMabarbareng is e64c1f51-d275-39da-80a7-70e2554ee1dd
-[02:41:49] [Server thread/INFO]: ErikMabarbareng joined the game
-[02:41:49] [Server thread/INFO]: ErikMabarbareng[/112.215.242.246:54420] logged in with entity id 5332 at ([Survival]61.17902366457518, 63.0, 203.5466871282113)
-[02:45:54] [Server thread/INFO]: ErikMabarbareng lost connection: Disconnected
-[02:45:54] [Server thread/INFO]: ErikMabarbareng left the game
-[02:46:54] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[02:48:24] [User Authenticator #9/INFO]: UUID of player ErikMabarbareng is e64c1f51-d275-39da-80a7-70e2554ee1dd
-[02:48:26] [Server thread/INFO]: ErikMabarbareng joined the game
-[02:48:26] [Server thread/INFO]: ErikMabarbareng[/112.215.242.246:14635] logged in with entity id 6254 at ([Survival]-48.004009943125496, 62.0, 274.972848258654)
-[02:54:42] [Server thread/INFO]: ErikMabarbareng lost connection: Disconnected
-[02:54:42] [Server thread/INFO]: ErikMabarbareng left the game
-[02:55:42] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[03:38:17] [Netty Epoll Server IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
+[05:01:11] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[05:01:11] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.5
+[05:01:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:01:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:01:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:01:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:01:11] [Server thread/INFO]: Preparing level "SMP"
+[05:01:11] [Server thread/INFO]: -------- World Settings For [SMP] --------
+[05:01:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[05:01:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[05:01:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[05:01:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[05:01:11] [Server thread/INFO]: Mob Spawn Range: 6
+[05:01:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:01:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[05:01:11] [Server thread/INFO]: Max TNT Explosions: 100
+[05:01:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:01:11] [Server thread/INFO]: View Distance: 10
+[05:01:11] [Server thread/INFO]: Simulation Distance: 10
+[05:01:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:01:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:01:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[05:01:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:01:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:01:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:01:15] [Server thread/INFO]: -------- World Settings For [SMP_nether] --------
+[05:01:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Potato Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[05:01:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[05:01:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[05:01:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[05:01:15] [Server thread/INFO]: Mob Spawn Range: 6
+[05:01:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:01:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[05:01:15] [Server thread/INFO]: Max TNT Explosions: 100
+[05:01:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:01:16] [Server thread/INFO]: View Distance: 10
+[05:01:16] [Server thread/INFO]: Simulation Distance: 10
+[05:01:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:01:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:01:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[05:01:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:01:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:01:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:01:17] [Server thread/INFO]: -------- World Settings For [SMP_the_end] --------
+[05:01:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[05:01:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[05:01:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[05:01:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[05:01:17] [Server thread/INFO]: Mob Spawn Range: 6
+[05:01:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:01:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[05:01:17] [Server thread/INFO]: Max TNT Explosions: 100
+[05:01:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:01:17] [Server thread/INFO]: View Distance: 10
+[05:01:17] [Server thread/INFO]: Simulation Distance: 10
+[05:01:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:01:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:01:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[05:01:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:01:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:01:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:01:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:01:18] [Worker-Main-6/INFO]: Preparing spawn area: 2%
+[05:01:20] [Worker-Main-7/INFO]: Preparing spawn area: 2%
+[05:01:20] [Worker-Main-7/INFO]: Preparing spawn area: 2%
+[05:01:20] [Worker-Main-7/INFO]: Preparing spawn area: 2%
+[05:01:20] [Worker-Main-7/INFO]: Preparing spawn area: 2%
+[05:01:20] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[05:01:21] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[05:01:21] [Worker-Main-7/INFO]: Preparing spawn area: 4%
+[05:01:22] [Worker-Main-5/INFO]: Preparing spawn area: 18%
+[05:01:22] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[05:01:23] [Worker-Main-3/INFO]: Preparing spawn area: 24%
+[05:01:23] [Worker-Main-4/INFO]: Preparing spawn area: 51%
+[05:01:24] [Worker-Main-6/INFO]: Preparing spawn area: 61%
+[05:01:24] [Server thread/INFO]: Time elapsed: 6051 ms
+[05:01:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:01:24] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[05:01:24] [Worker-Main-6/INFO]: Preparing spawn area: 18%
+[05:01:25] [Worker-Main-6/INFO]: Preparing spawn area: 51%
+[05:01:25] [Worker-Main-5/INFO]: Preparing spawn area: 51%
+[05:01:25] [Server thread/INFO]: Time elapsed: 1635 ms
+[05:01:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:01:25] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[05:01:26] [Server thread/INFO]: Time elapsed: 317 ms
+[05:01:26] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[05:01:26] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[05:01:26] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.5
+[05:01:26] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
+[05:01:26] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
+[05:01:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SimpleScore [3.12.5]
+[05:01:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:01:26] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[05:01:26] [Server thread/INFO]: Done (15.289s)! For help, type "help"
+[05:01:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[05:01:26] [Server thread/INFO]: [0;32;1m1 placeholder hook(s) registered![m
+[05:02:26] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[05:08:32] [User Authenticator #1/INFO]: UUID of player slowentity is 7b62e657-3b2a-3dad-b070-53b9114fc1f0
+[05:08:34] [Server thread/INFO]: slowentity joined the game
+[05:08:34] [Server thread/INFO]: slowentity[/103.88.169.131:50163] logged in with entity id 59 at ([SMP]-6.5, 62.0, 10.5)
+[05:10:26] [Server thread/INFO]: slowentity has made the advancement [Stone Age]
+[05:11:18] [Server thread/INFO]: Gamerule keepInventory is now set to: true
+[05:12:22] [Server thread/INFO]: slowentity has made the advancement [Getting an Upgrade]
+[05:14:08] [Server thread/INFO]: slowentity lost connection: Disconnected
+[05:14:08] [Server thread/INFO]: slowentity left the game
+[05:15:08] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[05:20:45] [User Authenticator #2/INFO]: UUID of player slowentity is 7b62e657-3b2a-3dad-b070-53b9114fc1f0
+[05:20:46] [Server thread/INFO]: slowentity joined the game
+[05:20:46] [Server thread/INFO]: slowentity[/103.88.169.131:50339] logged in with entity id 1271 at ([SMP]28.30000001192093, 53.0, 20.975427192355603)
+[05:20:56] [Server thread/INFO]: slowentity has made the advancement [Acquire Hardware]
+[05:28:43] [Server thread/INFO]: slowentity has made the advancement [Monster Hunter]
+[05:28:50] [Server thread/INFO]: slowentity was slain by Zombie
+[05:34:30] [Server thread/INFO]: slowentity was shot by Skeleton
+[05:34:34] [Server thread/INFO]: slowentity lost connection: Disconnected
+[05:34:34] [Server thread/INFO]: slowentity left the game
+[05:34:36] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
 io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
 	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:47) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
 	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
@@ -270,7 +246,80 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:20:20] [Netty Epoll Server IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
+[05:35:34] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[07:09:22] [User Authenticator #3/INFO]: UUID of player ErikMabarbareng is e64c1f51-d275-39da-80a7-70e2554ee1dd
+[07:09:24] [Server thread/INFO]: ErikMabarbareng joined the game
+[07:09:24] [Server thread/INFO]: ErikMabarbareng[/103.121.97.174:37564] logged in with entity id 3672 at ([SMP]-1.5, 94.0, 2.5)
+[07:13:39] [Server thread/INFO]: ErikMabarbareng fell from a high place
+[07:14:20] [Server thread/INFO]: ErikMabarbareng has made the advancement [Stone Age]
+[07:14:32] [Server thread/INFO]: ErikMabarbareng has made the advancement [Getting an Upgrade]
+[07:16:24] [Server thread/INFO]: ErikMabarbareng was shot by Skeleton
+[07:16:51] [Server thread/INFO]: ErikMabarbareng has made the advancement [Acquire Hardware]
+[07:17:25] [Server thread/INFO]: ErikMabarbareng has made the advancement [Isn't It Iron Pick]
+[07:18:26] [Server thread/INFO]: ErikMabarbareng has made the advancement [Not Today, Thank You]
+[07:18:30] [Server thread/INFO]: ErikMabarbareng has made the advancement [Monster Hunter]
+[07:26:04] [Server thread/INFO]: ErikMabarbareng has made the advancement [Suit Up]
+[07:39:43] [Server thread/INFO]: ErikMabarbareng has made the advancement [Diamonds!]
+[07:52:46] [Server thread/INFO]: ErikMabarbareng has made the advancement [Ice Bucket Challenge]
+[08:05:28] [Server thread/INFO]: ErikMabarbareng has made the advancement [Take Aim]
+[08:15:19] [Server thread/INFO]: ErikMabarbareng tried to swim in lava
+[08:17:41] [Server thread/INFO]: ErikMabarbareng has made the advancement [Best Friends Forever]
+[08:37:46] [Server thread/INFO]: ErikMabarbareng has made the advancement [Sweet Dreams]
+[08:44:02] [Server thread/INFO]: ErikMabarbareng has made the advancement [The Parrots and the Bats]
+[09:05:27] [Server thread/INFO]: ErikMabarbareng discovered the floor was lava
+[09:25:08] [Server thread/INFO]: ErikMabarbareng hit the ground too hard
+[09:34:04] [Server thread/INFO]: ErikMabarbareng hit the ground too hard
+[09:34:13] [Server thread/INFO]: ErikMabarbareng lost connection: Disconnected
+[09:34:13] [Server thread/INFO]: ErikMabarbareng left the game
+[09:35:13] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[10:16:10] [User Authenticator #4/INFO]: UUID of player Takoyaki is a7c42f10-f67b-35fc-bf7b-26ed3e932946
+[10:16:12] [Server thread/INFO]: Takoyaki joined the game
+[10:16:12] [Server thread/INFO]: Takoyaki[/140.213.160.78:8683] logged in with entity id 35119 at ([SMP]8.5, 69.0, 1.5)
+[10:17:59] [User Authenticator #5/INFO]: UUID of player ErikMabarbareng is e64c1f51-d275-39da-80a7-70e2554ee1dd
+[10:18:02] [Server thread/INFO]: ErikMabarbareng joined the game
+[10:18:02] [Server thread/INFO]: ErikMabarbareng[/103.121.97.174:49877] logged in with entity id 35488 at ([SMP]-648.8722426321891, 66.0, 464.41636898094765)
+[10:18:32] [Server thread/INFO]: Takoyaki was slain by Zombie
+[10:18:54] [Async Chat Thread - #0/INFO]: [Not Secure] <ErikMabarbareng> -650 460
+[10:19:04] [Server thread/INFO]: Takoyaki fell from a high place
+[10:19:19] [Server thread/INFO]: Takoyaki lost connection: Disconnected
+[10:19:19] [Server thread/INFO]: Takoyaki left the game
+[10:19:32] [User Authenticator #6/INFO]: UUID of player Takoyaki is a7c42f10-f67b-35fc-bf7b-26ed3e932946
+[10:19:33] [Server thread/INFO]: Takoyaki joined the game
+[10:19:33] [Server thread/INFO]: Takoyaki[/140.213.160.78:39903] logged in with entity id 36334 at ([SMP]8.085872628833902, 70.0, 2.800415508919074)
+[10:20:19] [Async Chat Thread - #2/INFO]: [Not Secure] <ErikMabarbareng> -630 460
+[10:21:11] [Server thread/WARN]: ErikMabarbareng moved too quickly! 4.123347397641851,2.0,-14.843732202877902
+[10:29:24] [Server thread/INFO]: Takoyaki has made the advancement [Acquire Hardware]
+[10:29:31] [Server thread/INFO]: Takoyaki has made the advancement [Suit Up]
+[10:30:01] [Server thread/INFO]: Takoyaki has made the advancement [Isn't It Iron Pick]
+[10:30:49] [User Authenticator #7/INFO]: UUID of player kentangajah is 26d330d9-0f50-387d-bff2-b494a74ed367
+[10:30:49] [Server thread/INFO]: Takoyaki lost connection: Disconnected
+[10:30:49] [Server thread/INFO]: Takoyaki left the game
+[10:30:52] [Server thread/INFO]: kentangajah joined the game
+[10:30:52] [Server thread/INFO]: kentangajah[/36.85.53.243:52542] logged in with entity id 40609 at ([SMP]9.5, 78.0, -8.5)
+[10:30:56] [User Authenticator #8/INFO]: UUID of player Takoyaki is a7c42f10-f67b-35fc-bf7b-26ed3e932946
+[10:30:57] [Server thread/INFO]: Takoyaki joined the game
+[10:30:57] [Server thread/INFO]: Takoyaki[/140.213.160.78:48258] logged in with entity id 40779 at ([SMP]-651.6650711024905, 66.0, 465.7951097161592)
+[10:31:02] [Async Chat Thread - #4/INFO]: [Not Secure] <ErikMabarbareng> di
+[10:31:09] [Async Chat Thread - #3/INFO]: [Not Secure] <kentangajah> oi
+[10:31:20] [Async Chat Thread - #4/INFO]: [Not Secure] <ErikMabarbareng> nio
+[10:31:32] [Async Chat Thread - #3/INFO]: [Not Secure] <kentangajah> ndek mana
+[10:31:39] [Async Chat Thread - #4/INFO]: [Not Secure] <ErikMabarbareng> -650 450
+[10:31:42] [Async Chat Thread - #3/INFO]: [Not Secure] <kentangajah> aduhai ngelagnya
+[10:31:46] [Async Chat Thread - #4/INFO]: [Not Secure] <ErikMabarbareng> mandiri yh
+[10:31:59] [Async Chat Thread - #3/INFO]: [Not Secure] <kentangajah> lah kocak
+[10:33:40] [User Authenticator #9/INFO]: UUID of player kentangajah is 26d330d9-0f50-387d-bff2-b494a74ed367
+[10:33:40] [Server thread/INFO]: kentangajah lost connection: You logged in from another location
+[10:33:40] [Server thread/INFO]: kentangajah left the game.
+[10:33:41] [Server thread/INFO]: kentangajah joined the game
+[10:33:41] [Server thread/INFO]: kentangajah[/103.121.22.37:52584] logged in with entity id 41618 at ([SMP]-32.576540267613886, 62.0, 18.30000001192093)
+[10:35:40] [Server thread/INFO]: Takoyaki has made the advancement [Monster Hunter]
+[10:36:31] [Server thread/INFO]: kentangajah has made the advancement [Stone Age]
+[10:40:36] [Server thread/WARN]: Spruce Boat (vehicle of kentangajah) moved wrongly! 0.387115745320755
+[10:40:36] [Server thread/WARN]: Spruce Boat (vehicle of kentangajah) moved wrongly! 0.29947550798319256
+[10:40:36] [Server thread/WARN]: Spruce Boat (vehicle of kentangajah) moved wrongly! 0.5076494776491307
+[10:40:37] [Server thread/WARN]: Spruce Boat (vehicle of kentangajah) moved wrongly! 0.4130041942586695
+[10:40:37] [Server thread/WARN]: Spruce Boat (vehicle of kentangajah) moved wrongly! 0.6172751999527861
+[10:42:21] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
 io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
 	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:47) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
 	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
@@ -309,127 +358,827 @@ io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/min
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[09:54:43] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:47) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:555) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:172) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[10:13:11] [Netty Epoll Server IO #3/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:47) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:555) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:172) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[11:22:35] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at net.minecraft.network.codec.IdDispatchCodec.a(SourceFile:47) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.codec.IdDispatchCodec.encode(SourceFile:14) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.PacketEncoder.a(SourceFile:26) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.PacketEncoder.encode(SourceFile:12) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at net.minecraft.network.NetworkManager$2.write(NetworkManager.java:555) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at net.minecraft.network.NetworkManager.c(NetworkManager.java:374) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.NetworkManager.b(NetworkManager.java:364) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:342) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:336) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at net.minecraft.network.NetworkManager.exceptionCaught(NetworkManager.java:172) ~[spigot-1.21.4.jar:4458-Spigot-73860e0-fb3f2b6]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[11:25:55] [User Authenticator #10/INFO]: UUID of player slowentity is 7b62e657-3b2a-3dad-b070-53b9114fc1f0
-[11:25:57] [Server thread/INFO]: slowentity joined the game
-[11:25:57] [Server thread/INFO]: slowentity[/103.88.169.131:50115] logged in with entity id 7365 at ([Survival]-1107.282689343993, 76.0, 527.2732860652508)
-[11:28:15] [Server thread/INFO]: slowentity lost connection: Disconnected
-[11:28:15] [Server thread/INFO]: slowentity left the game
-[11:29:15] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[11:38:14] [Thread-0/INFO]: Stopping server
+[10:42:51] [Async Chat Thread - #6/INFO]: [Not Secure] <Takoyaki> -1129
+[10:42:54] [Async Chat Thread - #5/INFO]: [Not Secure] <Takoyaki> 922
+[10:43:37] [Server thread/INFO]: kentangajah was slain by Drowned
+[10:45:13] [Server thread/INFO]: kentangajah lost connection: Disconnected
+[10:45:13] [Server thread/INFO]: kentangajah left the game
+[10:45:59] [Server thread/INFO]: Takoyaki has made the advancement [Stone Age]
+[10:47:56] [User Authenticator #10/INFO]: UUID of player kentangajah is 26d330d9-0f50-387d-bff2-b494a74ed367
+[10:47:57] [Server thread/INFO]: kentangajah joined the game
+[10:47:57] [Server thread/INFO]: kentangajah[/180.248.40.179:52663] logged in with entity id 49041 at ([SMP]-273.3277041348108, 62.11076431274414, -150.14880645790194)
+[10:51:30] [Server thread/INFO]: Takoyaki drowned
+[10:52:13] [Server thread/INFO]: ErikMabarbareng drowned
+[10:54:17] [Server thread/INFO]: kentangajah has made the advancement [Getting an Upgrade]
+[11:01:39] [Async Chat Thread - #8/INFO]: [Not Secure] <ErikMabarbareng> di
+[11:01:47] [Async Chat Thread - #7/INFO]: [Not Secure] <kentangajah> oi
+[11:01:48] [Async Chat Thread - #8/INFO]: [Not Secure] <ErikMabarbareng> iso turu ga
+[11:01:56] [Async Chat Thread - #7/INFO]: [Not Secure] <kentangajah> gak iso
+[11:02:03] [Async Chat Thread - #8/INFO]: [Not Secure] <ErikMabarbareng> keluar tak turu
+[11:02:09] [Async Chat Thread - #7/INFO]: [Not Secure] <kentangajah> okw
+[11:02:13] [Server thread/INFO]: kentangajah lost connection: Disconnected
+[11:02:13] [Server thread/INFO]: kentangajah left the game
+[11:02:15] [Server thread/INFO]: Takoyaki lost connection: Disconnected
+[11:02:15] [Server thread/INFO]: Takoyaki left the game
+[11:02:26] [User Authenticator #11/INFO]: UUID of player kentangajah is 26d330d9-0f50-387d-bff2-b494a74ed367
+[11:02:27] [Server thread/INFO]: kentangajah joined the game
+[11:02:27] [Server thread/INFO]: kentangajah[/103.121.22.37:52793] logged in with entity id 60332 at ([SMP]738.017963261389, 62.11076431274414, 464.16048100472375)
+[11:02:32] [Server thread/INFO]: kentangajah lost connection: Disconnected
+[11:02:32] [Server thread/INFO]: kentangajah left the game
+[11:02:42] [User Authenticator #12/INFO]: UUID of player Takoyaki is a7c42f10-f67b-35fc-bf7b-26ed3e932946
+[11:02:43] [Server thread/INFO]: Takoyaki joined the game
+[11:02:43] [Server thread/INFO]: Takoyaki[/140.213.160.78:50609] logged in with entity id 60591 at ([SMP]653.5701368785221, 91.0, 1427.8389348397452)
+[11:03:25] [User Authenticator #13/INFO]: UUID of player kentangajah is 26d330d9-0f50-387d-bff2-b494a74ed367
+[11:03:26] [Server thread/INFO]: kentangajah joined the game
+[11:03:26] [Server thread/INFO]: kentangajah[/103.121.22.37:52801] logged in with entity id 61230 at ([SMP]738.017963261389, 62.11076431274414, 464.16048100472375)
+[11:06:52] [Server thread/INFO]: Takoyaki has made the advancement [Diamonds!]
+[11:07:48] [Server thread/INFO]: Takoyaki has made the advancement [Sneak 100]
+[11:10:34] [Server thread/INFO]: Takoyaki has made the advancement [Cover Me with Diamonds]
+[11:10:46] [Server thread/INFO]: ErikMabarbareng has made the advancement [A Seedy Place]
+[11:10:48] [Server thread/INFO]: Takoyaki was slain by Warden
+[11:11:08] [Server thread/INFO]: ErikMabarbareng has made the advancement [Cover Me with Diamonds]
+[11:14:18] [Server thread/INFO]: ErikMabarbareng lost connection: Disconnected
+[11:14:18] [Server thread/INFO]: ErikMabarbareng left the game
+[11:16:38] [User Authenticator #14/INFO]: UUID of player ErikMabarbareng is e64c1f51-d275-39da-80a7-70e2554ee1dd
+[11:16:40] [Server thread/INFO]: ErikMabarbareng joined the game
+[11:16:40] [Server thread/INFO]: ErikMabarbareng[/103.121.97.174:34729] logged in with entity id 68426 at ([SMP]-671.3300628681122, 64.0, 481.44121010987845)
+[11:17:23] [Server thread/INFO]: kentangajah has made the advancement [Monster Hunter]
+[11:17:54] [Server thread/INFO]: kentangajah was slain by Drowned
+[11:20:10] [Server thread/INFO]: kentangajah was slain by Zombie
+[11:22:55] [Server thread/INFO]: kentangajah has made the advancement [Acquire Hardware]
+[11:25:40] [User Authenticator #15/INFO]: UUID of player Mumul is 4d4719a9-699f-3d71-9913-912362b6d801
+[11:25:42] [Server thread/INFO]: Mumul joined the game
+[11:25:42] [Server thread/INFO]: Mumul[/27.131.250.6:39679] logged in with entity id 76138 at ([SMP]-3.5, 70.0, -4.5)
+[11:25:55] [Async Chat Thread - #10/INFO]: [Not Secure] <Mumul> lah gw di mana
+[11:26:10] [Async Chat Thread - #9/INFO]: [Not Secure] <ErikMabarbareng> direset worldnya
+[11:26:32] [Server thread/INFO]: Takoyaki was slain by Zombie
+[11:27:10] [Server thread/INFO]: Mumul has made the advancement [Stone Age]
+[11:27:18] [Async Chat Thread - #12/INFO]: [Not Secure] <Mumul> kok mc ku kek bintik bintik yah
+[11:27:35] [Async Chat Thread - #11/INFO]: [Not Secure] <ErikMabarbareng> maksudnya?
+[11:27:36] [Server thread/INFO]: ErikMabarbareng drowned
+[11:28:08] [Async Chat Thread - #12/INFO]: [Not Secure] <Mumul> uhh kayak ini loh
+[11:28:39] [Server thread/INFO]: Mumul has made the advancement [Getting an Upgrade]
+[11:29:32] [Async Chat Thread - #14/INFO]: [Not Secure] <Mumul> ini keep inventori kah?
+[11:29:41] [Async Chat Thread - #13/INFO]: [Not Secure] <ErikMabarbareng> iyah
+[11:29:42] [Async Chat Thread - #14/INFO]: [Not Secure] <kentangajah> iya keep inventory
+[11:29:46] [Async Chat Thread - #13/INFO]: [Not Secure] <Mumul> oke oke
+[11:31:03] [Server thread/INFO]: kentangajah fell from a high place
+[11:32:40] [Async Chat Thread - #16/INFO]: [Not Secure] <Mumul> kalian pada di mana?
+[11:33:20] [Async Chat Thread - #15/INFO]: [Not Secure] <ErikMabarbareng> lupa koor lagi explore
+[11:33:27] [Async Chat Thread - #16/INFO]: [Not Secure] <ErikMabarbareng> habis bikin base
+[11:33:51] [Async Chat Thread - #15/INFO]: [Not Secure] <Mumul> ku nggak nemu apa apa di tempat spawn
+[11:34:33] [Async Chat Thread - #16/INFO]: [Not Secure] <ErikMabarbareng> baseku jauh
+[11:34:36] [Server thread/INFO]: Takoyaki has made the advancement [Best Friends Forever]
+[11:36:03] [Server thread/INFO]: Mumul has made the advancement [Monster Hunter]
+[11:39:18] [User Authenticator #16/INFO]: UUID of player slowentity is 7b62e657-3b2a-3dad-b070-53b9114fc1f0
+[11:39:20] [Server thread/INFO]: slowentity joined the game
+[11:39:20] [Server thread/INFO]: slowentity[/103.88.169.131:49841] logged in with entity id 87689 at ([SMP]-9.5, 78.0, -4.5)
+[11:39:25] [Async Chat Thread - #18/INFO]: [Not Secure] <slowentity> anjay
+[11:39:29] [Async Chat Thread - #17/INFO]: [Not Secure] <slowentity> wes maen aja njir
+[11:39:30] [Async Chat Thread - #18/INFO]: [Not Secure] <Mumul> halo bang
+[11:39:38] [Async Chat Thread - #17/INFO]: [Not Secure] <slowentity> ku mau tahlilan dulu
+[11:39:40] [Async Chat Thread - #18/INFO]: [Not Secure] <slowentity> baru bisa maen
+[11:40:00] [Server thread/INFO]: kentangajah was slain by Cave Spider
+[11:40:02] [Async Chat Thread - #17/INFO]: [Not Secure] <slowentity> kalian di mana
+[11:40:05] [Async Chat Thread - #18/INFO]: [Not Secure] <slowentity> pft adi mati
+[11:40:11] [Async Chat Thread - #17/INFO]: [Not Secure] <ErikMabarbareng> eksplor
+[11:40:14] [Async Chat Thread - #18/INFO]: [Not Secure] <kentangajah> tai
+[11:40:21] [Async Chat Thread - #17/INFO]: [Not Secure] <slowentity> minta makan guy
+[11:40:21] [Async Chat Thread - #18/INFO]: [Not Secure] <kentangajah> ayo mining
+[11:40:41] [Async Chat Thread - #17/INFO]: [Not Secure] <kentangajah> sini fi
+[11:40:46] [Async Chat Thread - #18/INFO]: [Not Secure] <slowentity> help
+[11:41:03] [Async Chat Thread - #17/INFO]: [Not Secure] <Mumul> kalian dc kah?
+[11:41:05] [Async Chat Thread - #18/INFO]: [Not Secure] <kentangajah> woi sini loh
+[11:41:06] [Async Chat Thread - #17/INFO]: [Not Secure] <slowentity> gak
+[11:41:10] [Async Chat Thread - #18/INFO]: [Not Secure] <slowentity> nanti malam dc aku
+[11:41:13] [Async Chat Thread - #17/INFO]: [Not Secure] <slowentity> di bawah diii
+[11:41:17] [Async Chat Thread - #18/INFO]: [Not Secure] <slowentity> aku gak bisa naik
+[11:41:35] [Async Chat Thread - #17/INFO]: [Not Secure] <kentangajah> aku dah di tempat mining ini
+[11:41:52] [Async Chat Thread - #18/INFO]: [Not Secure] <Mumul> sekeliling ku cuman ada es
+[11:41:59] [Async Chat Thread - #17/INFO]: [Not Secure] <slowentity> minta makan
+[11:43:37] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> adii abis ini aku tahlilan bentgar
+[11:43:41] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> terus on lagi nanti
+[11:43:47] [Async Chat Thread - #20/INFO]: [Not Secure] <kentangajah> oke aku juga mau keluar
+[11:43:52] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> okok
+[11:44:00] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> yadi kamu ndek mana
+[11:44:06] [Async Chat Thread - #20/INFO]: [Not Secure] <Mumul> ntah ini
+[11:44:09] [Async Chat Thread - #19/INFO]: [Not Secure] <kentangajah> dibawah
+[11:44:14] [Async Chat Thread - #20/INFO]: [Not Secure] <Mumul> keliling nyari dataran
+[11:44:35] [Async Chat Thread - #19/INFO]: [Not Secure] <kentangajah> fi cari en barnangku deket sarang laba laba tadi
+[11:44:55] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> aku juga ndek bawah
+[11:45:01] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> aku wes ndek di bawah di gak bisa naik
+[11:45:11] [Async Chat Thread - #20/INFO]: [Not Secure] <kentangajah> naik e bundir ae
+[11:45:52] [Server thread/INFO]: slowentity was blown up by Creeper
+[11:45:57] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> DAMNN
+[11:46:05] [Async Chat Thread - #20/INFO]: [Not Secure] <Mumul> bom bom bokuda
+[11:46:38] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> ada axolt
+[11:46:44] [Async Chat Thread - #20/INFO]: [Not Secure] <Takoyaki> minta kak
+[11:46:50] [Async Chat Thread - #19/INFO]: [Not Secure] <kentangajah> ada bucket kha
+[11:46:54] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> gak ada
+[11:46:56] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> tar masak
+[11:46:59] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> iron
+[11:47:01] [Async Chat Thread - #19/INFO]: [Not Secure] <kentangajah> oke
+[11:47:53] [Async Chat Thread - #20/INFO]: [Not Secure] <Mumul> bang tp bang
+[11:47:54] [Server thread/INFO]: ErikMabarbareng fell from a high place
+[11:47:54] [Server thread/INFO]: Takoyaki fell from a high place
+[11:48:03] [Async Chat Thread - #19/INFO]: [Not Secure] <ErikMabarbareng> mantap
+[11:48:20] [Server thread/INFO]: slowentity has made the advancement [The Cutest Predator]
+[11:48:24] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> yey dapat axolt
+[11:48:34] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> axolots
+[11:48:41] [Async Chat Thread - #20/INFO]: [Not Secure] <Mumul> bang tp bang plisss
+[11:48:52] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> aku gak ada akses
+[11:48:58] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> wait buka server
+[11:49:02] [Server thread/INFO]: slowentity was slain by Zombie
+[11:49:19] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> sabar
+[11:49:38] [Server thread/INFO]: No entity was found
+[11:49:42] [Async Chat Thread - #19/INFO]: [Not Secure] <ErikMabarbareng> -650 450 baseku
+[11:49:49] [Server thread/INFO]: Teleported Mumul to slowentity
+[11:49:57] [Server thread/INFO]: ErikMabarbareng has made the advancement [Enchanter]
+[11:49:58] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> ndek ndi wi
+[11:49:59] [Async Chat Thread - #19/INFO]: [Not Secure] <Mumul> mantap
+[11:50:01] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> adoh e
+[11:50:08] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> wtf si milos
+[11:50:20] [Async Chat Thread - #20/INFO]: [Not Secure] <Mumul> burik kali monitor ku
+[11:50:28] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> ke eric apa ya?
+[11:50:45] [Server thread/INFO]: Teleported slowentity to ErikMabarbareng
+[11:50:46] [Async Chat Thread - #20/INFO]: [Not Secure] <ErikMabarbareng> kalo maling yang wajar ya
+[11:50:53] [Server thread/INFO]: Teleported Mumul to slowentity
+[11:50:57] [Async Chat Thread - #19/INFO]: [Not Secure] <kentangajah> maling wajar hell nah
+[11:51:07] [Async Chat Thread - #20/INFO]: [Not Secure] <ErikMabarbareng> sek tas jare ga ngecit ajg
+[11:51:10] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> ANJ MAEN DARI KAPAN KLEAN
+[11:51:11] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> WTF
+[11:51:13] [User Authenticator #17/INFO]: UUID of player ARYATZY is 24a4db30-ab70-3021-be8f-bf9af3d7e437
+[11:51:13] [Async Chat Thread - #19/INFO]: [Not Secure] <ErikMabarbareng> apase
+[11:51:23] [Server thread/INFO]: ARYATZY joined the game
+[11:51:23] [Server thread/INFO]: ARYATZY[/114.10.46.8:37998] logged in with entity id 96794 at ([SMP]-0.5, 70.0, -1.5)
+[11:51:29] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> EKO EKO EKO
+[11:51:33] [Async Chat Thread - #19/INFO]: [Not Secure] <ErikMabarbareng> KAET NGOMONG GA NGECIT NGECIT APCB
+[11:51:40] [Async Chat Thread - #20/INFO]: [Not Secure] <Mumul> bang ada teknologi yang namanya pagar, iki kok pake lubang buaya anjir
+[11:51:50] [Async Chat Thread - #19/INFO]: [Not Secure] <ErikMabarbareng> malas nebang
+[11:51:57] [Async Chat Thread - #20/INFO]: [Not Secure] <ARYATZY> tp admin kacung
+[11:51:57] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> KAN AKU NGECHIT TP, DAN GAE SERVER E
+[11:51:59] [Async Chat Thread - #20/INFO]: [Not Secure] <Mumul> wkwkw
+[11:52:01] [Async Chat Thread - #19/INFO]: [Not Secure] <slowentity> BUKAN OP
+[11:52:09] [Async Chat Thread - #20/INFO]: [Not Secure] <ErikMabarbareng> wuu ngecit
+[11:52:18] [Async Chat Thread - #19/INFO]: [Not Secure] <Mumul> ku luasin lahan nya boleh gak?
+[11:52:23] [Server thread/INFO]: kentangajah was slain by Cave Spider
+[11:52:26] [Async Chat Thread - #20/INFO]: [Not Secure] <ErikMabarbareng> okeh
+[11:52:37] [Async Chat Thread - #19/INFO]: [Not Secure] <Mumul> minta domba mu 3 bang buat kasur
+[11:52:37] [Async Chat Thread - #20/INFO]: [Not Secure] <slowentity> IJIN LEAF DAN AFK, NAK TAHLILAN
+[11:52:38] [Server thread/INFO]: slowentity lost connection: Disconnected
+[11:52:38] [Server thread/INFO]: slowentity left the game
+[11:52:45] [Server thread/INFO]: ARYATZY was doomed to fall by kentangajah
+[11:52:51] [Async Chat Thread - #19/INFO]: [Not Secure] <kentangajah> aing keluar dulu
+[11:52:55] [Async Chat Thread - #20/INFO]: [Not Secure] <kentangajah> wkwkw
+[11:52:59] [Server thread/INFO]: kentangajah lost connection: Disconnected
+[11:52:59] [Server thread/INFO]: kentangajah left the game
+[11:53:24] [Async Chat Thread - #19/INFO]: [Not Secure] <Mumul> eh aku dapat ini tadi
+[11:53:26] [Server thread/INFO]: Takoyaki has made the advancement [Sweet Dreams]
+[11:53:31] [Async Chat Thread - #20/INFO]: [Not Secure] <Takoyaki> dapat apa tu
+[11:53:36] [Async Chat Thread - #19/INFO]: [Not Secure] <ErikMabarbareng> tidur ges tidur
+[11:53:42] [Server thread/INFO]: Mumul has made the advancement [Sweet Dreams]
+[11:53:49] [Server thread/INFO]: ARYATZY lost connection: Disconnected
+[11:53:49] [Server thread/INFO]: ARYATZY left the game
+[11:54:00] [Async Chat Thread - #20/INFO]: [Not Secure] <Mumul> ini buat apa
+[11:54:09] [Async Chat Thread - #19/INFO]: [Not Secure] <Takoyaki> oohh
+[11:54:09] [User Authenticator #18/INFO]: UUID of player ARYATZY is 24a4db30-ab70-3021-be8f-bf9af3d7e437
+[11:54:09] [Async Chat Thread - #19/INFO]: [Not Secure] <ErikMabarbareng> aksesoris armor
+[11:54:10] [Server thread/INFO]: ARYATZY joined the game
+[11:54:10] [Server thread/INFO]: ARYATZY[/114.10.46.8:39437] logged in with entity id 97864 at ([SMP]-34.406272016180225, 64.0, -127.44177882496886)
+[11:54:11] [Async Chat Thread - #20/INFO]: [Not Secure] <Takoyaki> mewarnai
+[11:54:15] [Async Chat Thread - #19/INFO]: [Not Secure] <ErikMabarbareng> sekin buat armor
+[11:54:16] [Async Chat Thread - #20/INFO]: [Not Secure] <Mumul> ouh gitu
+[11:57:30] [Server thread/INFO]: ARYATZY has made the advancement [Stone Age]
+[11:57:43] [Server thread/INFO]: ARYATZY has made the advancement [Getting an Upgrade]
+[12:03:04] [Server thread/WARN]: ErikMabarbareng moved too quickly! -16.633319468544755,-6.065414536648802,-4.067921153032103
+[12:03:26] [User Authenticator #19/INFO]: UUID of player Takoyaki is a7c42f10-f67b-35fc-bf7b-26ed3e932946
+[12:03:26] [Server thread/INFO]: Takoyaki lost connection: You logged in from another location
+[12:03:26] [Server thread/INFO]: Takoyaki left the game.
+[12:03:27] [Server thread/INFO]: Takoyaki joined the game
+[12:03:27] [Server thread/INFO]: Takoyaki[/140.213.177.220:33105] logged in with entity id 106081 at ([SMP]786.209416303537, -51.0, 1174.7169753682867)
+[12:04:07] [Server thread/INFO]: ErikMabarbareng has made the advancement [Sneak 100]
+[12:08:39] [Server thread/INFO]: ARYATZY lost connection: Disconnected
+[12:08:39] [Server thread/INFO]: ARYATZY left the game
+[12:09:41] [Server thread/INFO]: Mumul was slain by Zombie
+[12:11:47] [Async Chat Thread - #22/INFO]: [Not Secure] <Mumul> jarak cahara torch berapa yah
+[12:11:57] [User Authenticator #20/INFO]: UUID of player ARYATZY is 24a4db30-ab70-3021-be8f-bf9af3d7e437
+[12:11:58] [Server thread/INFO]: ARYATZY joined the game
+[12:11:58] [Server thread/INFO]: ARYATZY[/114.10.46.8:39439] logged in with entity id 110465 at ([SMP]116.54034511894432, 61.0, 328.78951584153424)
+[12:12:09] [Async Chat Thread - #21/INFO]: [Not Secure] <ErikMabarbareng> kurtaw
+[12:13:50] [Server thread/INFO]: Takoyaki was doomed to fall by Warden
+[12:15:41] [Async Chat Thread - #24/INFO]: [Not Secure] <Mumul> kalian mining
+[12:15:43] [Async Chat Thread - #23/INFO]: [Not Secure] <Mumul> ?
+[12:15:49] [Async Chat Thread - #24/INFO]: [Not Secure] <ARYATZY> iy
+[12:15:53] [Server thread/INFO]: ErikMabarbareng was slain by Warden
+[12:18:20] [Server thread/INFO]: ARYATZY has made the advancement [Acquire Hardware]
+[12:18:48] [Server thread/INFO]: Mumul has made the advancement [A Seedy Place]
+[12:19:08] [Server thread/INFO]: ErikMabarbareng has made the advancement [Local Brewery]
+[12:20:44] [Server thread/INFO]: Takoyaki has made the advancement [Getting an Upgrade]
+[12:23:49] [Server thread/INFO]: Takoyaki drowned
+[12:24:22] [Server thread/INFO]: ARYATZY has made the advancement [Monster Hunter]
+[12:24:32] [Server thread/INFO]: Mumul has made the advancement [The Parrots and the Bats]
+[12:25:16] [Server thread/INFO]: ARYATZY has made the advancement [Not Today, Thank You]
+[12:27:45] [Server thread/INFO]: Mumul was slain by Zombie
+[12:29:00] [Async Chat Thread - #26/INFO]: [Not Secure] <Mumul> aku udahan bang
+[12:29:03] [Async Chat Thread - #25/INFO]: [Not Secure] <Takoyaki> oke
+[12:29:05] [Async Chat Thread - #26/INFO]: [Not Secure] <Takoyaki> tengs bang
+[12:29:05] [Async Chat Thread - #25/INFO]: [Not Secure] <ARYATZY> ok
+[12:29:07] [Async Chat Thread - #26/INFO]: [Not Secure] <Mumul> udah sakit mata ku
+[12:29:19] [Async Chat Thread - #25/INFO]: [Not Secure] <ARYATZY> wkwkkw
+[12:29:22] [Server thread/INFO]: Mumul lost connection: Disconnected
+[12:29:22] [Server thread/INFO]: Mumul left the game
+[12:29:50] [Async Chat Thread - #25/INFO]: [Not Secure] <ErikMabarbareng> hahaha
+[12:30:13] [Server thread/INFO]: ARYATZY has made the advancement [Isn't It Iron Pick]
+[12:30:20] [Async Chat Thread - #27/INFO]: [Not Secure] <ErikMabarbareng> gearpunk
+[12:30:29] [Server thread/INFO]: ARYATZY has made the advancement [Suit Up]
+[12:31:10] [Server thread/INFO]: ARYATZY has made the advancement [Diamonds!]
+[12:31:52] [Server thread/WARN]: ErikMabarbareng moved too quickly! 9.107062605756596,-0.07840000152587834,4.314479727432342
+[12:34:51] [Server thread/INFO]: Villager EntityVillager['Nitwit'/119951, l='ServerLevel[SMP]', x=-966.54, y=63.19, z=282.64] died, message: 'Nitwit was slain by Takoyaki'
+[12:35:29] [Server thread/INFO]: ErikMabarbareng lost connection: Timed out
+[12:35:29] [Server thread/INFO]: ErikMabarbareng left the game.
+[12:35:29] [Server thread/WARN]: handleDisconnection() called twice
+[12:35:55] [User Authenticator #21/INFO]: UUID of player ErikMabarbareng is e64c1f51-d275-39da-80a7-70e2554ee1dd
+[12:36:18] [Server thread/INFO]: ErikMabarbareng joined the game
+[12:36:18] [Server thread/INFO]: ErikMabarbareng[/103.121.97.174:25075] logged in with entity id 121120 at ([SMP]-1001.3966170019107, 64.0, 285.90157708532746)
+[12:36:23] [Server thread/INFO]: Villager EntityVillager['Villager'/120021, l='ServerLevel[SMP]', x=-974.44, y=62.62, z=236.81] died, message: 'Villager was slain by Zombie'
+[12:40:18] [Server thread/INFO]: ErikMabarbareng lost connection: Disconnected
+[12:40:18] [Server thread/INFO]: ErikMabarbareng left the game
+[12:40:20] [Server thread/INFO]: Takoyaki lost connection: Disconnected
+[12:40:20] [Server thread/INFO]: Takoyaki left the game
+[12:44:17] [Server thread/INFO]: ARYATZY has made the advancement [Cover Me with Diamonds]
+[12:48:37] [Server thread/INFO]: ARYATZY lost connection: Disconnected
+[12:48:37] [Server thread/INFO]: ARYATZY left the game
+[12:49:37] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:58:34] [User Authenticator #22/INFO]: UUID of player slowentity is 7b62e657-3b2a-3dad-b070-53b9114fc1f0
+[12:58:36] [Server thread/INFO]: slowentity joined the game
+[12:58:36] [Server thread/INFO]: slowentity[/103.88.169.131:50209] logged in with entity id 124563 at ([SMP]-733.922738794057, 66.0, 512.6715407803632)
+[12:59:15] [Server thread/INFO]: slowentity has made the advancement [Sweet Dreams]
+[13:08:07] [Server thread/INFO]: slowentity has made the advancement [Ice Bucket Challenge]
+[13:11:43] [Server thread/INFO]: Set the weather to clear
+[13:11:48] [Server thread/INFO]: Set the time to 1000
+[13:16:34] [Server thread/INFO]: slowentity has made the advancement [Suit Up]
+[13:17:35] [Server thread/INFO]: Gave 1 [White Bed] to slowentity
+[13:37:59] [Server thread/INFO]: slowentity lost connection: Disconnected
+[13:37:59] [Server thread/INFO]: slowentity left the game
+[13:38:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[13:39:59] [User Authenticator #23/INFO]: UUID of player slowentity is 7b62e657-3b2a-3dad-b070-53b9114fc1f0
+[13:40:01] [Server thread/INFO]: slowentity joined the game
+[13:40:01] [Server thread/INFO]: slowentity[/103.88.169.131:50374] logged in with entity id 131523 at ([SMP]-433.2132927045552, 97.0, 1.300000011920929)
+[13:44:46] [User Authenticator #24/INFO]: UUID of player ario is 1ed566cb-3d8b-3d79-b6eb-2a8572d9b6cf
+[13:44:48] [Server thread/INFO]: ario joined the game
+[13:44:48] [Server thread/INFO]: ario[/182.4.135.11:51208] logged in with entity id 132421 at ([SMP]-9.5, 93.0, 4.5)
+[13:45:05] [Server thread/INFO]: Teleported ario to slowentity
+[13:45:13] [Async Chat Thread - #29/INFO]: [Not Secure] <ario> anjay
+[13:45:28] [Async Chat Thread - #28/INFO]: [Not Secure] <slowentity> omah e eric wapik cuman adoh
+[13:45:32] [Async Chat Thread - #29/INFO]: [Not Secure] <slowentity> gak weruh gen e
+[13:45:34] [Async Chat Thread - #28/INFO]: [Not Secure] <slowentity> cik
+[13:45:37] [Async Chat Thread - #29/INFO]: [Not Secure] <ario> aowkoakw
+[13:45:43] [Async Chat Thread - #28/INFO]: [Not Secure] <slowentity> bantu
+[13:45:45] [Async Chat Thread - #29/INFO]: [Not Secure] <ario> erik ga login a
+[13:45:49] [Async Chat Thread - #28/INFO]: [Not Secure] <slowentity> barang e ndek chest
+[13:45:51] [Async Chat Thread - #29/INFO]: [Not Secure] <slowentity> isor ku
+[13:46:00] [Async Chat Thread - #28/INFO]: [Not Secure] <ario> aku sek coba coba masang mod e
+[13:46:08] [Async Chat Thread - #29/INFO]: [Not Secure] <slowentity> aman
+[13:46:14] [Async Chat Thread - #28/INFO]: [Not Secure] <ario> iki login mek gae ngetes\
+[13:46:21] [Async Chat Thread - #29/INFO]: [Not Secure] <slowentity> OKOK
+[13:48:14] [Async Chat Thread - #31/INFO]: [Not Secure] <slowentity> gak dc a?
+[13:49:51] [Server thread/INFO]: Gave 1 [White Bed] to slowentity
+[13:50:04] [Async Chat Thread - #33/INFO]: [Not Secure] <slowentity> butuh kayu wakeh
+[13:50:18] [Async Chat Thread - #32/INFO]: [Not Secure] <ario> give @p
+[13:50:20] [Server thread/INFO]: Set the weather to clear
+[13:50:23] [Async Chat Thread - #33/INFO]: [Not Secure] <slowentity> anj
+[13:54:31] [Async Chat Thread - #35/INFO]: [Not Secure] <slowentity> turu sek ayo
+[13:54:50] [Async Chat Thread - #34/INFO]: [Not Secure] <slowentity> turu sek ayo
+[13:54:56] [Async Chat Thread - #35/INFO]: [Not Secure] <slowentity> OI
+[13:54:58] [Async Chat Thread - #34/INFO]: [Not Secure] <slowentity> TURU SEK
+[13:55:14] [Server thread/INFO]: ario has made the advancement [Sweet Dreams]
+[13:56:51] [Server thread/INFO]: slowentity was poked to death by a sweet berry bush
+[13:59:31] [Async Chat Thread - #37/INFO]: [Not Secure] <slowentity> sek tak golek pasir
+[13:59:35] [Async Chat Thread - #36/INFO]: [Not Secure] <ario> oke
+[14:01:49] [Server thread/INFO]: slowentity drowned
+[14:03:26] [Async Chat Thread - #39/INFO]: [Not Secure] <slowentity> GAK DC a
+[14:03:31] [Async Chat Thread - #38/INFO]: [Not Secure] <ario> ora
+[14:03:35] [Async Chat Thread - #39/INFO]: [Not Secure] <ario> adekku turu
+[14:03:37] [Async Chat Thread - #38/INFO]: [Not Secure] <ario> wkkw
+[14:03:45] [Async Chat Thread - #39/INFO]: [Not Secure] <slowentity> OKEOK AMAN
+[14:04:24] [Async Chat Thread - #38/INFO]: [Not Secure] <slowentity> ONO SUORO WONG ROTO
+[14:04:45] [Async Chat Thread - #39/INFO]: [Not Secure] <slowentity> JALOK KAYU NGAB
+[14:04:46] [Async Chat Thread - #38/INFO]: [Not Secure] <ario> roto opo
+[14:05:01] [Async Chat Thread - #39/INFO]: [Not Secure] <slowentity> uduk seng HYTAM
+[14:05:09] [Async Chat Thread - #38/INFO]: [Not Secure] <ario> rasis niga
+[14:05:12] [Async Chat Thread - #39/INFO]: [Not Secure] <slowentity> KWKWK
+[14:05:22] [Async Chat Thread - #38/INFO]: [Not Secure] <slowentity> TURU TURU
+[14:06:04] [Server thread/INFO]: ario has made the advancement [Stone Age]
+[14:06:50] [Async Chat Thread - #41/INFO]: [Not Secure] <slowentity> GOLEK NO COAL LEK ONO
+[14:06:54] [Async Chat Thread - #40/INFO]: [Not Secure] <ario> oke
+[14:07:00] [Async Chat Thread - #41/INFO]: [Not Secure] <ario> ta gae pikek sek
+[14:07:05] [Async Chat Thread - #40/INFO]: [Not Secure] <slowentity> AMAN AJA
+[14:07:13] [Server thread/INFO]: ario has made the advancement [Getting an Upgrade]
+[14:07:17] [Async Chat Thread - #41/INFO]: [Not Secure] <slowentity> FOKUS RUMAH KEK, KO BARU GOLEK DIAMOND
+[14:08:34] [Async Chat Thread - #43/INFO]: [Not Secure] <slowentity> ON MAU DI SOPO PEBI A
+[14:08:44] [Async Chat Thread - #42/INFO]: [Not Secure] <slowentity> AKU BALIK E PETOK ANJ
+[14:09:27] [Async Chat Thread - #43/INFO]: [Not Secure] <slowentity> JALOK KAYU HYTAM MU YOO
+[14:10:20] [Server thread/INFO]: ario was poked to death by a sweet berry bush
+[14:10:25] [Async Chat Thread - #42/INFO]: [Not Secure] <slowentity> PFT
+[14:10:34] [Async Chat Thread - #43/INFO]: [Not Secure] <ario> OAWKOAKWOK
+[14:10:37] [Async Chat Thread - #42/INFO]: [Not Secure] <ario> kari 1 nyowoku
+[14:10:45] [Async Chat Thread - #43/INFO]: [Not Secure] <slowentity> KENEK ERII WI KWKWK AMPEK MATI
+[14:15:50] [Async Chat Thread - #45/INFO]: [Not Secure] <ario> akeh zombie anjer di isor
+[14:16:11] [Async Chat Thread - #44/INFO]: [Not Secure] <slowentity> ngab ayo turu
+[14:16:21] [Async Chat Thread - #45/INFO]: [Not Secure] <slowentity> matio gak popo, ko respawn e ndek omah
+[14:16:22] [Async Chat Thread - #44/INFO]: [Not Secure] <ario> kek kek
+[14:17:05] [Async Chat Thread - #45/INFO]: [Not Secure] <slowentity> mariki mining
+[14:17:19] [Async Chat Thread - #44/INFO]: [Not Secure] <slowentity> MONSTER ANJ
+[14:17:21] [Async Chat Thread - #45/INFO]: [Not Secure] <slowentity> GAS WES
+[14:17:24] [Async Chat Thread - #44/INFO]: [Not Secure] <ario> PERANG KEK
+[14:18:30] [Async Chat Thread - #47/INFO]: [Not Secure] <slowentity> SABAR GAREK MASANG KOCO, TERUS GAS MINING AKu
+[14:18:39] [Async Chat Thread - #46/INFO]: [Not Secure] <ario> oke
+[14:18:43] [Async Chat Thread - #47/INFO]: [Not Secure] <ario> aku jupuk caol
+[14:18:51] [Async Chat Thread - #46/INFO]: [Not Secure] <slowentity> OKOK
+[14:18:55] [Async Chat Thread - #47/INFO]: [Not Secure] <slowentity> GAE TORCH
+[14:19:18] [Server thread/INFO]: ario has made the advancement [Monster Hunter]
+[14:20:58] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> awas yoo, te gae ladang barry
+[14:21:03] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> oke
+[14:21:44] [Server thread/INFO]: ario hit the ground too hard
+[14:21:47] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> lah
+[14:21:50] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> COK MATI NDEK NGAREP KU
+[14:21:52] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> KWKWK
+[14:21:57] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> OKWOAKOWKOAKW
+[14:22:28] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> masalah panganan mangan beri ae wes
+[14:22:38] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> yowes
+[14:23:03] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> wes gowo torch a?
+[14:23:07] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> orong
+[14:23:20] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> yokpo ngedrop e
+[14:23:23] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> cek setengah
+[14:23:25] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> q
+[14:23:33] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> klik torch e + ctrl
+[14:23:39] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> klick kanan
+[14:23:51] [Server thread/INFO]: slowentity fell from a high place
+[14:24:05] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> nah
+[14:24:22] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> GAS MINING
+[14:24:34] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> lewat nfi
+[14:24:36] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> ndi
+[14:24:39] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> iki a?
+[14:24:45] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> MENCOLOT AE WAES
+[14:24:48] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> GAS
+[14:25:04] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> fi
+[14:25:07] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> aowkoakwo
+[14:25:08] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> anj
+[14:25:19] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> KAGET WOK
+[14:25:20] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> kaet ngomong
+[14:25:24] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> ON GELEM BERI A
+[14:25:29] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> arep
+[14:25:31] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> nyoih
+[14:26:05] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> sek
+[14:26:08] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> rinioo
+[14:26:12] [Server thread/INFO]: slowentity has made the advancement [Not Today, Thank You]
+[14:26:22] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> ta ss e nang samid
+[14:26:26] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> arek e ngejak login
+[14:26:31] [Server thread/INFO]: slowentity was blown up by Creeper
+[14:26:34] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> oawkokaw
+[14:26:40] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> ANJ CREPER
+[14:26:48] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> NGELAMAK
+[14:26:53] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> lewat samping creper e
+[14:26:57] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> hop
+[14:27:06] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> ta ss kek mariki
+[14:27:42] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> sek
+[14:27:43] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> GOLEK GEN LIO TEMBUS ANJ
+[14:28:05] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> sek jing sing anteng ta fotone
+[14:28:10] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> samid ngejak login
+[14:28:27] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> nah
+[14:28:40] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> wes tak kirim no nang arek e
+[14:28:56] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> AYO METU
+[14:29:02] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> COOPER GAK GUNA
+[14:29:16] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> lah
+[14:29:21] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> GAE O SHADER BEN DYNMIC LIGHT
+[14:29:33] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> maksude
+[14:29:41] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> BEN ISO GOWO TORCH TAPI MURUp
+[14:29:46] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> wes iki
+[14:29:49] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> gae mod wingi
+[14:29:51] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> ANJYA
+[14:30:17] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> kompe ikio
+[14:30:27] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> pokok lancar main
+[14:30:33] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> tapi pencahayaan sek apik
+[14:30:44] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> BAJINGAN
+[14:30:46] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> aowkoakw
+[14:30:58] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> GOLEK GEN MINING LIO
+[14:31:05] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> SINI SAYANg
+[14:32:03] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> OPO GAE GEN MINING DEWE
+[14:32:09] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> bebas beb
+[14:32:19] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> bentar tak spectator sayang
+[14:32:21] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> ngetes
+[14:32:26] [Server thread/INFO]: Made slowentity a server operator
+[14:32:28] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> citerrrr
+[14:32:31] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> kwkwk
+[14:32:35] [Server thread/INFO]: slowentity issued server command: /gamemode spectator
+[14:32:35] [Server thread/INFO]: [slowentity: Set own game mode to Spectator Mode]
+[14:32:58] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> on ndi
+[14:33:05] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> pancet
+[14:33:09] [Server thread/INFO]: slowentity issued server command: /gamemode survival
+[14:33:09] [Server thread/INFO]: [slowentity: Set own game mode to Survival Mode]
+[14:33:12] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> sini sayang
+[14:33:14] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> udh nemu
+[14:33:45] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> INI GALI KE BAWH AJA
+[14:34:09] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> jangan gitu
+[14:34:12] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> muter asyang
+[14:34:29] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> kerja kerja
+[14:34:35] [Async Chat Thread - #49/INFO]: [Not Secure] <slowentity> VOC
+[14:34:41] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> aowkaokwoaw
+[14:34:45] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> anjg creeper
+[14:35:07] [Async Chat Thread - #48/INFO]: [Not Secure] <ario> lah
+[14:35:23] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> air e bening cik
+[14:35:27] [Async Chat Thread - #48/INFO]: [Not Secure] <slowentity> KKWKW
+[14:35:27] [Async Chat Thread - #49/INFO]: [Not Secure] <ario> ga ketok
+[14:35:47] [Server thread/INFO]: slowentity issued server command: /gamemode spectator
+[14:35:47] [Server thread/INFO]: [slowentity: Set own game mode to Spectator Mode]
+[14:36:26] [Server thread/INFO]: slowentity issued server command: /tp ario
+[14:36:26] [Server thread/INFO]: [slowentity: Teleported slowentity to ario]
+[14:36:38] [Server thread/INFO]: slowentity issued server command: /gamemode survival
+[14:36:38] [Server thread/INFO]: [slowentity: Set own game mode to Survival Mode]
+[14:36:41] [Server thread/INFO]: slowentity issued server command: /come
+[14:36:42] [Server thread/INFO]: slowentity issued server command: /come
+[14:36:43] [Async Chat Thread - #51/INFO]: [Not Secure] <slowentity> ccome
+[14:36:49] [Async Chat Thread - #50/INFO]: [Not Secure] <ario> di ndi
+[14:37:12] [Async Chat Thread - #51/INFO]: [Not Secure] <slowentity> modon
+[14:37:54] [Server thread/INFO]: slowentity issued server command: /gamemode spectator
+[14:37:54] [Server thread/INFO]: [slowentity: Set own game mode to Spectator Mode]
+[14:38:17] [Server thread/INFO]: slowentity issued server command: /gamemode survival
+[14:38:17] [Server thread/INFO]: [slowentity: Set own game mode to Survival Mode]
+[14:38:30] [Server thread/INFO]: slowentity issued server command: /gamemode spectator
+[14:38:30] [Server thread/INFO]: [slowentity: Set own game mode to Spectator Mode]
+[14:38:37] [Server thread/INFO]: slowentity issued server command: /tp ario slowentity
+[14:38:37] [Server thread/INFO]: [slowentity: Teleported ario to slowentity]
+[14:38:43] [Server thread/INFO]: slowentity issued server command: /gamemode survival
+[14:38:43] [Server thread/INFO]: [slowentity: Set own game mode to Survival Mode]
+[14:38:45] [Server thread/INFO]: ario was slain by slowentity
+[14:38:45] [Server thread/INFO]: slowentity was slain by Zombie
+[14:38:49] [Async Chat Thread - #53/INFO]: [Not Secure] <ario> anjg
+[14:38:52] [Async Chat Thread - #52/INFO]: [Not Secure] <slowentity> lah
+[14:38:54] [Async Chat Thread - #53/INFO]: [Not Secure] <slowentity> pft
+[14:38:56] [Async Chat Thread - #52/INFO]: [Not Secure] <ario> aokwoakowkaw
+[14:39:02] [Server thread/INFO]: slowentity issued server command: /gamemode spectator
+[14:39:02] [Server thread/INFO]: [slowentity: Set own game mode to Spectator Mode]
+[14:39:06] [Async Chat Thread - #53/INFO]: [Not Secure] <ario> podo matine klocak
+[14:39:22] [Server thread/INFO]: slowentity issued server command: /tp ario slowentity
+[14:39:22] [Server thread/INFO]: [slowentity: Teleported ario to slowentity]
+[14:39:26] [Server thread/INFO]: slowentity issued server command: /gamemode survival
+[14:39:26] [Server thread/INFO]: [slowentity: Set own game mode to Survival Mode]
+[14:39:51] [Async Chat Thread - #52/INFO]: [Not Secure] <slowentity> sini
+[14:39:57] [Async Chat Thread - #53/INFO]: [Not Secure] <ario> besi coy
+[14:40:05] [Async Chat Thread - #52/INFO]: [Not Secure] <slowentity> help
+[14:40:31] [Server thread/INFO]: slowentity issued server command: /tp ario slowentity
+[14:40:31] [Server thread/INFO]: [slowentity: Teleported ario to slowentity]
+[14:41:51] [Server thread/INFO]: slowentity has made the advancement [Take Aim]
+[14:42:24] [Async Chat Thread - #55/INFO]: [Not Secure] <slowentity> duwe besi mateng a
+[14:42:32] [Async Chat Thread - #54/INFO]: [Not Secure] <ario> ora
+[14:43:02] [Async Chat Thread - #55/INFO]: [Not Secure] <slowentity> jalok watu 1 gae kompor
+[14:43:15] [Async Chat Thread - #54/INFO]: [Not Secure] <slowentity> watu
+[14:43:15] [Async Chat Thread - #55/INFO]: [Not Secure] <ario> ehj
+[14:43:36] [Async Chat Thread - #54/INFO]: [Not Secure] <slowentity> masak ayam
+[14:43:44] [Async Chat Thread - #55/INFO]: [Not Secure] <slowentity> oi ono lapiz
+[14:44:00] [Async Chat Thread - #54/INFO]: [Not Secure] <slowentity> lapiz wi lo
+[14:44:34] [Async Chat Thread - #55/INFO]: [Not Secure] <ario> jir
+[14:44:37] [Async Chat Thread - #54/INFO]: [Not Secure] <ario> eroh ae
+[14:44:43] [Async Chat Thread - #55/INFO]: [Not Secure] <slowentity> lapiz wi
+[14:44:46] [Async Chat Thread - #54/INFO]: [Not Secure] <slowentity> uduk diamond
+[14:44:52] [Async Chat Thread - #55/INFO]: [Not Secure] <ario> iyo
+[14:45:00] [Async Chat Thread - #54/INFO]: [Not Secure] <slowentity> darah ku karek 1
+[14:45:09] [Async Chat Thread - #55/INFO]: [Not Secure] <ario> makan
+[14:45:09] [Async Chat Thread - #54/INFO]: [Not Secure] <slowentity> nio ayam i lo
+[14:45:26] [Async Chat Thread - #55/INFO]: [Not Secure] <slowentity> iron mu masak en kene
+[14:45:28] [Async Chat Thread - #54/INFO]: [Not Secure] <ario> pertama kali makan enak
+[14:45:39] [Async Chat Thread - #55/INFO]: [Not Secure] <slowentity> SELAMA INI KERJA RODI, MAKAN BERI
+[14:45:43] [Async Chat Thread - #54/INFO]: [Not Secure] <ario> akowkoakwa
+[14:45:54] [Async Chat Thread - #55/INFO]: [Not Secure] <slowentity> ehh gelem jogo aku a
+[14:45:58] [Async Chat Thread - #54/INFO]: [Not Secure] <slowentity> aku te ngiseng
+[14:45:59] [Async Chat Thread - #55/INFO]: [Not Secure] <ario> bebas
+[14:46:01] [Async Chat Thread - #54/INFO]: [Not Secure] <ario> oke
+[14:46:16] [Async Chat Thread - #55/INFO]: [Not Secure] <slowentity> sek yo
+[14:46:19] [Async Chat Thread - #54/INFO]: [Not Secure] <slowentity> 10 menitan lah
+[14:46:20] [Async Chat Thread - #55/INFO]: [Not Secure] <ario> aman
+[14:47:44] [Server thread/INFO]: ario has made the advancement [Acquire Hardware]
+[14:48:02] [Server thread/INFO]: ario has made the advancement [Isn't It Iron Pick]
+[14:48:25] [Server thread/INFO]: ario has made the advancement [Suit Up]
+[14:50:35] [Async Chat Thread - #57/INFO]: [Not Secure] <ario> aku nang buri pisan dilut
+[14:52:10] [Async Chat Thread - #59/INFO]: [Not Secure] <slowentity> SEK NGAB
+[14:57:58] [Async Chat Thread - #61/INFO]: [Not Secure] <slowentity> oi
+[14:58:01] [Async Chat Thread - #60/INFO]: [Not Secure] <ario> oy\
+[14:58:26] [Async Chat Thread - #61/INFO]: [Not Secure] <slowentity> gas menjelajah
+[14:58:30] [Async Chat Thread - #60/INFO]: [Not Secure] <ario> gas
+[14:58:39] [Async Chat Thread - #61/INFO]: [Not Secure] <slowentity> jalok iron e 2
+[14:59:03] [Server thread/INFO]: slowentity has made the advancement [Isn't It Iron Pick]
+[14:59:15] [Async Chat Thread - #60/INFO]: [Not Secure] <slowentity> gas
+[14:59:31] [Server thread/INFO]: slowentity fell from a high place
+[14:59:38] [Server thread/INFO]: slowentity issued server command: /tp slowentity ario
+[14:59:38] [Server thread/INFO]: [slowentity: Teleported slowentity to ario]
+[14:59:41] [Server thread/INFO]: ario fell from a high place
+[14:59:46] [Async Chat Thread - #61/INFO]: [Not Secure] <ario> anjeng
+[14:59:48] [Server thread/INFO]: slowentity issued server command: /tp ario slowentity
+[14:59:48] [Server thread/INFO]: [slowentity: Teleported ario to slowentity]
+[14:59:50] [Async Chat Thread - #60/INFO]: [Not Secure] <ario> skeleton taik
+[15:00:36] [Async Chat Thread - #61/INFO]: [Not Secure] <slowentity> nio
+[15:00:54] [Async Chat Thread - #60/INFO]: [Not Secure] <slowentity> ono banyu
+[15:01:18] [Async Chat Thread - #61/INFO]: [Not Secure] <slowentity> sek sek bales wa
+[15:01:22] [Async Chat Thread - #60/INFO]: [Not Secure] <ario> oke
+[15:02:24] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> gae o tameng
+[15:02:36] [Async Chat Thread - #62/INFO]: [Not Secure] <ario> gano bahan
+[15:02:37] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> jalok iron 1 tak gaek no
+[15:02:57] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> iron 1
+[15:03:06] [Async Chat Thread - #63/INFO]: [Not Secure] <ario> table
+[15:03:18] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> jalok iron 1 tak gaek no
+[15:03:51] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> jalok iron 1 tak gaek no
+[15:03:55] [Async Chat Thread - #62/INFO]: [Not Secure] <ario> wes
+[15:03:55] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> oh uwes
+[15:03:57] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> sip sip
+[15:04:09] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> GAS
+[15:04:47] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> diamon
+[15:05:02] [Async Chat Thread - #63/INFO]: [Not Secure] <ario> JIR
+[15:05:03] [Server thread/INFO]: slowentity has made the advancement [Diamonds!]
+[15:05:09] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> dua mek an
+[15:05:27] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> nah sip, gold gae trading nek neather
+[15:05:33] [Async Chat Thread - #62/INFO]: [Not Secure] <ario> IYO
+[15:05:38] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> SINI SAYANG
+[15:05:59] [Async Chat Thread - #62/INFO]: [Not Secure] <ario> RESTONE
+[15:06:29] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> MBALEK KOYOK E
+[15:06:32] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> BUNTU
+[15:06:36] [Async Chat Thread - #63/INFO]: [Not Secure] <ario> ouh
+[15:06:40] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> sek golek stock batu
+[15:07:06] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> GAE MUNGGAH
+[15:07:54] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> diamond
+[15:08:08] [Async Chat Thread - #63/INFO]: [Not Secure] <ario> iki
+[15:08:17] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> diamond?
+[15:08:20] [Async Chat Thread - #63/INFO]: [Not Secure] <ario> iyo
+[15:08:25] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> IKI IYO
+[15:08:34] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> iki
+[15:08:36] [Async Chat Thread - #62/INFO]: [Not Secure] <ario> iku
+[15:08:36] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> jupuk en
+[15:08:39] [Async Chat Thread - #62/INFO]: [Not Secure] <ario> jupuken
+[15:08:46] [Async Chat Thread - #63/INFO]: [Not Secure] <ario> gae besi iso a
+[15:08:50] [Async Chat Thread - #62/INFO]: [Not Secure] <ario> pikek besi
+[15:08:55] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> besi iso
+[15:08:59] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> pokok uduk watu
+[15:09:07] [Async Chat Thread - #63/INFO]: [Not Secure] <ario> peh
+[15:09:23] [Server thread/INFO]: ario has made the advancement [Diamonds!]
+[15:09:33] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> nah
+[15:09:43] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> diamond neh anj
+[15:09:45] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> gilak
+[15:10:34] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> sini
+[15:10:55] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> ono tempat mingin
+[15:10:58] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> mingin
+[15:10:59] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> mining
+[15:11:01] [Async Chat Thread - #63/INFO]: [Not Secure] <ario> iyo
+[15:11:19] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> ati ati
+[15:11:31] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> mburi mu
+[15:11:32] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> awas
+[15:11:52] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> nio
+[15:12:47] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> ccreper
+[15:13:41] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> BUNTU
+[15:14:16] [Async Chat Thread - #62/INFO]: [Not Secure] <ario> besi besi besi
+[15:14:22] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> COK MEDAN
+[15:14:25] [Async Chat Thread - #62/INFO]: [Not Secure] <ario> aowkoakw
+[15:14:50] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> COMe
+[15:15:04] [Async Chat Thread - #62/INFO]: [Not Secure] <ario> emas\
+[15:15:21] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> COK BLEDEK
+[15:15:26] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> SEK NYETEL LAGU BEN GAK WEDI
+[15:15:33] [Async Chat Thread - #63/INFO]: [Not Secure] <ario> aowkoakw
+[15:15:55] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> MBALEK
+[15:15:55] [Async Chat Thread - #63/INFO]: [Not Secure] <ario> lapis
+[15:16:05] [Async Chat Thread - #62/INFO]: [Not Secure] <slowentity> jupuk en
+[15:16:09] [Async Chat Thread - #63/INFO]: [Not Secure] <slowentity> mari ne mbaalek o rene
+[15:17:24] [Async Chat Thread - #65/INFO]: [Not Secure] <slowentity> mantau sek
+[15:17:37] [Async Chat Thread - #64/INFO]: [Not Secure] <ario> LOMPAT GANIH
+[15:17:45] [Server thread/INFO]: slowentity was impaled on a stalagmite
+[15:17:51] [Async Chat Thread - #65/INFO]: [Not Secure] <ario> okaowkaowk
+[15:17:51] [Server thread/INFO]: slowentity issued server command: /tp slowentity ario
+[15:17:51] [Server thread/INFO]: [slowentity: Teleported slowentity to ario]
+[15:17:54] [Server thread/INFO]: slowentity was impaled on a stalagmite
+[15:17:57] [Async Chat Thread - #64/INFO]: [Not Secure] <ario> anjg
+[15:18:01] [Async Chat Thread - #65/INFO]: [Not Secure] <slowentity> kepleset
+[15:18:05] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> tak kiro nutut
+[15:18:06] [Server thread/INFO]: slowentity issued server command: /tp slowentity ario
+[15:18:06] [Server thread/INFO]: [slowentity: Teleported slowentity to ario]
+[15:18:56] [Async Chat Thread - #65/INFO]: [Not Secure] <ario> BESIIIIIIIII
+[15:18:57] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> munggah koyok e, wes entek\
+[15:19:01] [Async Chat Thread - #65/INFO]: [Not Secure] <slowentity> anj
+[15:19:02] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> wkwkkw
+[15:19:16] [Async Chat Thread - #65/INFO]: [Not Secure] <ario> kilo pun sodap nih
+[15:19:43] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> LOMPAT
+[15:19:45] [Async Chat Thread - #65/INFO]: [Not Secure] <ario> sisa 1
+[15:19:48] [Async Chat Thread - #64/INFO]: [Not Secure] <ario> nyawa
+[15:19:52] [Async Chat Thread - #65/INFO]: [Not Secure] <slowentity> anying
+[15:19:56] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> gak ono panganan?
+[15:20:06] [Async Chat Thread - #65/INFO]: [Not Secure] <ario> wes
+[15:20:34] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> BESI
+[15:20:36] [Async Chat Thread - #65/INFO]: [Not Secure] <ario> anjay
+[15:20:48] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> besi
+[15:20:50] [Async Chat Thread - #65/INFO]: [Not Secure] <ario> ditakdirkan menjadi orang medan
+[15:21:08] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> COME
+[15:21:14] [Async Chat Thread - #65/INFO]: [Not Secure] <ario> sek
+[15:21:16] [Async Chat Thread - #64/INFO]: [Not Secure] <ario> coal
+[15:21:38] [Async Chat Thread - #65/INFO]: [Not Secure] <slowentity> COME RAYAP
+[15:21:45] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> BUNTU
+[15:22:13] [Async Chat Thread - #65/INFO]: [Not Secure] <slowentity> COME COME
+[15:22:15] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> RWAR
+[15:22:20] [Async Chat Thread - #65/INFO]: [Not Secure] <ario> sabar wak
+[15:22:25] [Async Chat Thread - #64/INFO]: [Not Secure] <ario> besi nih
+[15:22:31] [Async Chat Thread - #65/INFO]: [Not Secure] <slowentity> SAD
+[15:22:39] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> AKU DI ATAS MU
+[15:22:55] [Async Chat Thread - #65/INFO]: [Not Secure] <ario> hah
+[15:23:43] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> sek mbenak no keyboard
+[15:23:49] [Async Chat Thread - #65/INFO]: [Not Secure] <ario> oke
+[15:24:20] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> COME
+[15:24:51] [Async Chat Thread - #65/INFO]: [Not Secure] <slowentity> LAH MBALEK KONTOL
+[15:24:56] [Async Chat Thread - #64/INFO]: [Not Secure] <ario> cik
+[15:25:16] [Server thread/INFO]: ario fell from a high place
+[15:25:17] [Async Chat Thread - #65/INFO]: [Not Secure] <slowentity> mbalek ae
+[15:25:21] [Async Chat Thread - #64/INFO]: [Not Secure] <ario> anj
+[15:25:25] [Async Chat Thread - #65/INFO]: [Not Secure] <slowentity> ah nang omah ae wes
+[15:25:26] [Async Chat Thread - #64/INFO]: [Not Secure] <slowentity> kek
+[15:25:33] [Async Chat Thread - #65/INFO]: [Not Secure] <ario> ono besi maeng
+[15:25:34] [Async Chat Thread - #64/INFO]: [Not Secure] <ario> sad
+[15:25:36] [Server thread/INFO]: slowentity fell from a high place
+[15:25:42] [Async Chat Thread - #65/INFO]: [Not Secure] <slowentity> RAYAP ANJ
+[15:25:47] [Async Chat Thread - #64/INFO]: [Not Secure] <ario> turu dulu gais
+[15:25:58] [Async Chat Thread - #65/INFO]: [Not Secure] <slowentity> SEK NDEK DUWOR TAK GAE PENYIMPANAN
+[15:26:04] [Async Chat Thread - #64/INFO]: [Not Secure] <ario> oke
+[15:28:15] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> sek tak matiin texture pack
+[15:28:20] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> oke
+[15:28:30] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> FOTO KEK BOLO
+[15:28:33] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> SINI SINI
+[15:28:51] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> creper
+[15:28:54] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> aowkoakwoakw
+[15:28:55] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> KONTOLLL
+[15:29:20] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> mulai maeng ngerusak ae creper ik
+[15:29:52] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> foto di ndi
+[15:29:57] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> SINI
+[15:30:10] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> PFT
+[15:30:26] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> DONE
+[15:30:36] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> anjay
+[15:31:30] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> GOLEK SUGAR
+[15:31:34] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> KARO BEDROCK
+[15:31:41] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> gae enchan table
+[15:31:47] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> jupuk bedrock gae opo
+[15:31:53] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> pickae e
+[15:31:56] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> uduk bedrocck
+[15:31:57] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> anu
+[15:32:00] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> obsidian
+[15:32:01] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> iyp
+[15:32:04] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> ayo golek sugar
+[15:32:14] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> has
+[15:32:16] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> gas
+[15:33:01] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> BEN ISO ENTOK ENCHA EFFECT
+[15:33:07] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> yoi
+[15:34:07] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> WANGEL GOLEK E
+[15:34:18] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> di lawut
+[15:34:23] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> wadoh
+[15:34:33] [Server thread/INFO]: slowentity fell from a high place
+[15:34:38] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> oakowkaw
+[15:34:39] [Server thread/INFO]: slowentity issued server command: /tp slowentity ario
+[15:34:39] [Server thread/INFO]: [slowentity: Teleported slowentity to ario]
+[15:35:35] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> perjalanan menccari gula
+[15:35:44] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> besinya kapan bang
+[15:36:08] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> gowo o torch ben padang
+[15:36:21] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> YEYY FOUNDw
+[15:37:04] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> MATI GEK BANYU AE
+[15:37:07] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> BEN CEPET MBALEK
+[15:37:20] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> wehh
+[15:37:23] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> liat tuh
+[15:37:24] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> opo iku
+[15:37:29] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> portal
+[15:37:29] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> village?
+[15:37:32] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> oh
+[15:37:50] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> LUAMAYAN OBSIDIAN E
+[15:37:50] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> iki obsidian
+[15:37:55] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> SUGAR
+[15:38:01] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> GACORR
+[15:38:14] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> mati ayo
+[15:38:16] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> kenne
+[15:38:21] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> gak usah
+[15:38:24] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> wes entok obsidian
+[15:38:29] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> mati
+[15:38:35] [Server thread/INFO]: ario discovered the floor was lava
+[15:38:40] [Server thread/INFO]: slowentity discovered the floor was lava
+[15:39:08] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> anj gak duwe kulit
+[15:39:14] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> peh
+[15:39:36] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> GAS JELAJAH
+[15:40:26] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> oi
+[15:40:28] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> nio
+[15:40:29] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> nandi
+[15:40:34] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> banyu
+[15:40:38] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> awkmu ngaleh
+[15:41:15] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> keren cik banyune
+[15:41:20] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> kwkwk
+[15:41:55] [Server thread/INFO]: ario lost connection: Disconnected
+[15:41:55] [Server thread/INFO]: ario left the game
+[15:42:11] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> GOLEK SAPI, DOMBA, KUDA
+[15:42:35] [User Authenticator #25/INFO]: UUID of player ario is 1ed566cb-3d8b-3d79-b6eb-2a8572d9b6cf
+[15:42:37] [Server thread/INFO]: ario joined the game
+[15:42:37] [Server thread/INFO]: ario[/182.4.135.11:56566] logged in with entity id 149982 at ([SMP]-429.71941142062303, 66.0, 277.70271223151497)
+[15:42:42] [Server thread/INFO]: slowentity issued server command: /tp ario slowentity
+[15:42:42] [Server thread/INFO]: [slowentity: Teleported ario to slowentity]
+[15:42:44] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> ngelag
+[15:42:52] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> nah
+[15:42:55] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> intok
+[15:43:00] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> gas mati
+[15:43:13] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> GAS MATI NDEK BANYU
+[15:43:34] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> iki te mati
+[15:43:44] [Server thread/INFO]: slowentity drowned
+[15:43:45] [Server thread/INFO]: ario drowned
+[15:44:09] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> eh
+[15:44:55] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> kene
+[15:45:11] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> anjay
+[15:45:15] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> gae lapiz laze
+[15:45:23] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> ta dekek peti maeng
+[15:45:29] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> aman
+[15:46:07] [Server thread/INFO]: slowentity has made the advancement [Enchanter]
+[15:46:25] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> ono besi 1 a?
+[15:47:01] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> diamond enak e gae opo
+[15:47:03] [Server thread/INFO]: slowentity issued server command: /give slowentity minecraft:diamond_ore 1
+[15:47:03] [Server thread/INFO]: [slowentity: Gave 1 [Diamond Ore] to slowentity]
+[15:47:08] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> pickaxe?
+[15:47:13] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> iyo gak popo
+[15:47:17] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> armor yo iso
+[15:47:31] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> pickaxe opo sword
+[15:47:47] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> aku gae pickaxe karo sword, tapi wort it an swort
+[15:48:10] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> anying kurang 1 dm iso 2 2 ne
+[15:48:29] [Server thread/INFO]: slowentity issued server command: /give slowentity minecraft:diamond 1
+[15:48:29] [Server thread/INFO]: [slowentity: Gave 1 [Diamond] to slowentity]
+[15:48:56] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> anjay
+[15:48:57] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> CEK INVENTORY
+[15:49:21] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> peh
+[15:49:24] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> gacor
+[15:50:07] [Server thread/INFO]: ario has made the advancement [Enchanter]
+[15:50:14] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> wait lagi baels wa
+[15:51:02] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> ku mbek ndelok arek ngoding
+[15:51:08] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> gialk
+[15:51:14] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> on nok ndi
+[15:51:23] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> duor
+[15:51:25] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> omah
+[15:52:07] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> sayang sini ikut aku
+[15:52:21] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> look at me
+[15:52:31] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> AHH
+[15:52:36] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> cooo
+[15:52:39] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> ga waras
+[15:53:34] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> golek level yokpo
+[15:53:39] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> mining
+[15:54:06] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> ndek ndi awak mu
+[15:54:43] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> armor ku tok sing ga bling
+[15:55:10] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> iki lapo terus an
+[15:55:17] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> raroh
+[15:55:23] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> pe turu mariki
+[15:56:05] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> tak kek i ope gelem a
+[15:56:07] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> OP
+[15:56:17] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> cuman gunakan dengan bijat
+[15:56:17] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> opo
+[15:56:21] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> jadi admin
+[15:56:31] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> sakarep
+[15:56:35] [Server thread/INFO]: slowentity issued server command: /op ario
+[15:56:35] [Server thread/INFO]: [slowentity: Made ario a server operator]
+[15:56:38] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> DONE
+[15:56:43] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> lapo ae iki
+[15:56:51] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> epep ta iki
+[15:57:22] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> omahe di ndi
+[15:57:28] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> IKi
+[15:57:36] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> ta blingne armorku
+[15:57:43] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> huwik
+[15:57:47] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> level gudu di atas 5
+[15:58:07] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> rangurus pokok bling
+[15:58:13] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> nahhh
+[15:58:20] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> peh
+[15:58:23] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> ganteng bener
+[15:58:28] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> ANJ
+[15:58:39] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> foto foto
+[15:59:38] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> mana diamongnya
+[16:00:07] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> menikmatin sun set
+[16:00:11] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> yoi
+[16:00:18] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> sunset terakhir
+[16:00:37] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> anjay swort e warna warni
+[16:00:46] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> wkwkw
+[16:00:57] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> pulang beb
+[16:01:04] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> off disek aku
+[16:01:05] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> TIDUR SINI SAYANg
+[16:01:15] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> anjg
+[16:01:29] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> ANU
+[16:01:45] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> YWDH TIDUR O SAYANG
+[16:01:46] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> zombi mana zombi
+[16:01:51] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> bantai
+[16:02:01] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> aowkoakw
+[16:02:07] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> peh pedang ku sakit, shapness 2
+[16:02:13] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> kill pertama diamong
+[16:02:18] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> kwkw
+[16:02:23] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> wes off o gak popo, lanjut mene
+[16:02:28] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> padangno sek
+[16:02:32] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> gas
+[16:02:39] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> anjay
+[16:02:42] [Async Chat Thread - #66/INFO]: [Not Secure] <ario> wes off kek
+[16:02:43] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> wes
+[16:02:45] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> dadah sayang
+[16:02:47] [Async Chat Thread - #67/INFO]: [Not Secure] <slowentity> MUAHHHH
+[16:02:50] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> LOVE U
+[16:02:51] [Async Chat Thread - #67/INFO]: [Not Secure] <ario> turu royy
+[16:02:52] [Server thread/INFO]: ario lost connection: Disconnected
+[16:02:52] [Server thread/INFO]: ario left the game
+[16:02:55] [Async Chat Thread - #66/INFO]: [Not Secure] <slowentity> TONO
+[16:02:56] [Server thread/INFO]: slowentity lost connection: Disconnected
+[16:02:56] [Server thread/INFO]: slowentity left the game
+[16:03:56] [Server thread/INFO]: Server empty for 60 seconds, pausing
