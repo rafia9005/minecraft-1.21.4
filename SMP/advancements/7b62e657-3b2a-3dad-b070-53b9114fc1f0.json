@@ -602,12 +602,14 @@
     "criteria": {
       "minecraft:cave_spider": "2025-07-19 12:35:10 +0000",
       "minecraft:skeleton": "2025-07-18 05:31:25 +0000",
+      "minecraft:piglin": "2025-07-19 14:54:32 +0000",
       "minecraft:enderman": "2025-07-19 06:39:07 +0000",
       "minecraft:spider": "2025-07-19 05:53:29 +0000",
       "minecraft:zombie": "2025-07-18 05:28:43 +0000",
       "minecraft:creeper": "2025-07-18 15:12:43 +0000",
       "minecraft:drowned": "2025-07-19 05:39:54 +0000",
-      "minecraft:zombie_villager": "2025-07-19 12:04:13 +0000"
+      "minecraft:zombie_villager": "2025-07-19 12:04:13 +0000",
+      "minecraft:hoglin": "2025-07-19 14:53:34 +0000"
     },
     "done": false
   },
@@ -686,15 +688,17 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-07-18 15:02:31 +0000",
-      "apple": "2025-07-18 13:23:34 +0000",
       "chicken": "2025-07-18 14:31:16 +0000",
-      "cooked_chicken": "2025-07-18 14:44:55 +0000",
+      "bread": "2025-07-19 15:12:25 +0000",
       "rotten_flesh": "2025-07-18 05:33:40 +0000",
       "suspicious_stew": "2025-07-19 05:46:52 +0000",
       "cooked_mutton": "2025-07-19 12:42:51 +0000",
       "sweet_berries": "2025-07-18 13:07:23 +0000",
+      "salmon": "2025-07-19 14:38:07 +0000",
       "cooked_beef": "2025-07-18 11:42:52 +0000",
       "melon_slice": "2025-07-19 05:46:03 +0000",
+      "apple": "2025-07-18 13:23:34 +0000",
+      "cooked_chicken": "2025-07-18 14:44:55 +0000",
       "carrot": "2025-07-19 05:56:02 +0000"
     },
     "done": false
@@ -2253,6 +2257,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-07-19 13:49:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-07-19 13:49:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
     "criteria": {
       "has_blue_orchid": "2025-07-19 14:11:19 +0000"
@@ -2265,23 +2281,71 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2025-07-19 13:49:24 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2025-07-19 14:16:49 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bone_block": {
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
     "criteria": {
-      "has_bone_meal": "2025-07-19 13:49:24 +0000"
+      "has_salmon": "2025-07-19 14:37:58 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "salmon": "2025-07-19 14:37:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-07-19 14:37:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-07-19 14:37:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-07-19 14:48:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-07-19 14:48:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-07-19 14:48:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-07-19 14:51:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-07-19 14:51:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-07-19 14:51:11 +0000"
+    },
+    "done": false
   },
   "DataVersion": 4189
 }

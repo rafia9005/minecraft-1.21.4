@@ -537,7 +537,8 @@
       "minecraft:skeleton": "2025-07-18 14:25:15 +0000",
       "minecraft:spider": "2025-07-18 14:19:18 +0000",
       "minecraft:zombie": "2025-07-18 14:49:59 +0000",
-      "minecraft:drowned": "2025-07-18 14:42:03 +0000"
+      "minecraft:drowned": "2025-07-18 14:42:03 +0000",
+      "minecraft:hoglin": "2025-07-19 14:55:38 +0000"
     },
     "done": false
   },
@@ -1998,6 +1999,48 @@
       "minecraft:woods": "2025-07-19 14:24:10 +0000"
     },
     "done": false
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-07-19 14:51:13 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-07-19 14:51:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-07-19 14:51:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-07-19 14:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-07-19 14:53:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-07-19 14:25:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-07-19 14:55:36 +0000"
+    },
+    "done": true
   },
   "DataVersion": 4189
 }

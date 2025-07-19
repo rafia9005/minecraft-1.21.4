@@ -944,8 +944,11 @@
     "criteria": {
       "minecraft:cave_spider": "2025-07-19 12:36:41 +0000",
       "minecraft:skeleton": "2025-07-18 12:25:26 +0000",
+      "minecraft:piglin": "2025-07-19 14:53:27 +0000",
+      "minecraft:zombified_piglin": "2025-07-19 14:54:01 +0000",
       "minecraft:spider": "2025-07-18 12:36:05 +0000",
-      "minecraft:zombie": "2025-07-18 12:24:22 +0000"
+      "minecraft:zombie": "2025-07-18 12:24:22 +0000",
+      "minecraft:hoglin": "2025-07-19 14:53:29 +0000"
     },
     "done": false
   },
@@ -1465,9 +1468,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-07-19 15:09:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-07-19 14:51:11 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-07-19 14:51:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-07-19 15:09:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-07-19 14:51:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-07-19 15:09:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2025-07-19 14:23:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-07-19 15:14:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-07-19 15:14:44 +0000"
     },
     "done": true
   },
