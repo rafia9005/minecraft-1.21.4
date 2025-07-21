@@ -1,1 +1,1 @@
-java -Xms2G -Xmx2G -jar server.jar
+java -Xms4G -Xmx4G -jar server.jar
