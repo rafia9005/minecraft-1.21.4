@@ -711,6 +711,7 @@
       "apple": "2025-07-18 13:23:34 +0000",
       "cooked_chicken": "2025-07-18 14:44:55 +0000",
       "enchanted_golden_apple": "2025-07-20 05:32:36 +0000",
+      "potato": "2025-07-28 11:59:13 +0000",
       "carrot": "2025-07-19 05:56:02 +0000"
     },
     "done": false
@@ -2959,6 +2960,42 @@
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2025-07-27 14:11:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-28 12:08:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-28 12:08:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-28 12:08:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-28 12:08:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-28 12:08:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-28 12:08:53 +0000"
     },
     "done": true
   },

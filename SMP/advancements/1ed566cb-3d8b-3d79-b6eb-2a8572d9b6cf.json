@@ -549,8 +549,10 @@
       "minecraft:skeleton": "2025-07-18 14:25:15 +0000",
       "minecraft:zombified_piglin": "2025-07-20 12:49:47 +0000",
       "minecraft:witch": "2025-07-20 02:28:20 +0000",
+      "minecraft:wither_skeleton": "2025-07-28 11:07:56 +0000",
       "minecraft:bogged": "2025-07-27 00:20:54 +0000",
       "minecraft:hoglin": "2025-07-19 14:55:38 +0000",
+      "minecraft:shulker": "2025-07-28 10:15:07 +0000",
       "minecraft:cave_spider": "2025-07-19 12:25:53 +0000",
       "minecraft:piglin": "2025-07-20 05:31:34 +0000",
       "minecraft:breeze": "2025-07-27 01:40:03 +0000",
@@ -559,6 +561,7 @@
       "minecraft:spider": "2025-07-18 14:19:18 +0000",
       "minecraft:piglin_brute": "2025-07-20 13:26:26 +0000",
       "minecraft:zombie": "2025-07-18 14:49:59 +0000",
+      "minecraft:creeper": "2025-07-28 13:07:14 +0000",
       "minecraft:drowned": "2025-07-18 14:42:03 +0000"
     },
     "done": false
@@ -2037,6 +2040,7 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-07-19 14:51:13 +0000",
       "minecraft:nether_wastes": "2025-07-20 05:28:56 +0000",
+      "minecraft:soul_sand_valley": "2025-07-28 11:22:39 +0000",
       "minecraft:warped_forest": "2025-07-20 05:29:58 +0000"
     },
     "done": false
@@ -3185,6 +3189,84 @@
   "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2025-07-27 14:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2025-07-28 10:19:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-07-28 10:40:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-07-28 10:44:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-07-28 11:06:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-07-28 11:24:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-07-28 11:24:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-07-28 11:29:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-28 12:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-28 12:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-28 12:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-28 12:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-28 12:08:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-07-28 12:08:30 +0000"
     },
     "done": true
   },
