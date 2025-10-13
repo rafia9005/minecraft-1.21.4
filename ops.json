@@ -6,6 +6,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "aaa28cde-2dca-4cd8-bcac-37230bf00f5b",
+    "name": "Ogmur",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "7b62e657-3b2a-3dad-b070-53b9114fc1f0",
     "name": "slowentity",
     "level": 4,
